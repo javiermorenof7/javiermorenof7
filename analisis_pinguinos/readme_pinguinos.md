@@ -10,7 +10,7 @@ Algoritmo de rediccion de dimenciones UMAP: Uniform Manifold Approximation And p
 
 ![1](data/image-20220920-140711.png)
 
-# Continua Aprendiendo sobre EDA
+# EDA
 
 ![2](data/image-20220920-142014.png)
 
