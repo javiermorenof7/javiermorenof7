@@ -29,10 +29,14 @@ la tabla unificada o la tabla final es la siguiente:
 
 ![Kitten](capturas/Captura%20de%20pantalla%202022-10-12%20105846.png)
 
+la data descargable la podemos obtener del siguiente link
+
+> https://raw.githubusercontent.com/javiermorenof7/javiermorenof7/main/analisis_company/data/data_tableau.csv
+
 # Visualización
 
 Una vez obtenida esta tabla podemos realizar los siguientes análisis
 
-https://public.tableau.com/app/profile/francisco2414/viz/Company_16655277589250/Dashboard1
+> https://public.tableau.com/app/profile/francisco2414/viz/Company_16655277589250/Dashboard1
 
 ![Kitten](capturas/Captura%20de%20pantalla%202022-10-11%20230801.png)
