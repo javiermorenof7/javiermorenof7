@@ -162,4 +162,12 @@ Para mejorar nuestras recomendaciones queremos saber a partir de una serie de ca
 
   ![1](capturas/Captura%20de%20pantalla%202022-10-13%20172245.png)
 
-### Al archivo final se llama test_challengue_prob.csv
+### Al archivo final lo podemos descargar del siguiente link
+
+# CSV
+
+https://raw.githubusercontent.com/javiermorenof7/javiermorenof7/main/analisis_probabilistico_tiendas/data/test_challengue_prob.csv
+
+# Excel
+
+https://github.com/javiermorenof7/javiermorenof7/blob/main/analisis_probabilistico_tiendas/data/test_challengue_prob.xlsx?raw=true
