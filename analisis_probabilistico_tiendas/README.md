@@ -45,8 +45,10 @@ Para mejorar nuestras recomendaciones queremos saber a partir de una serie de ca
 
 - ***Exploración de los datos***   
   - Tipo de variables y tamaño de la muestra a analizar
+
    ![1](capturas/Captura%20de%20pantalla%202022-10-13%20145505.png)
   - Exploración de las columnas a manejar
+
    ![1](capturas/Captura%20de%20pantalla%202022-10-13%20145830.png)
   - Existen valores nulos o vacíos
   ![1](capturas/Captura%20de%20pantalla%202022-10-13%20150016.png)
@@ -162,7 +164,11 @@ Para mejorar nuestras recomendaciones queremos saber a partir de una serie de ca
 
   ![1](capturas/Captura%20de%20pantalla%202022-10-13%20172245.png)
 
-### Al archivo final lo podemos descargar del siguiente link
+### Archivos Finales
+
+# Modelo Python (Notebook)
+
+https://github.com/javiermorenof7/javiermorenof7/blob/main/analisis_probabilistico_tiendas/modelo_cpg_rappi.ipynb
 
 # CSV
 
