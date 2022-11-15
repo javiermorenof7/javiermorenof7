@@ -38,6 +38,10 @@ La gerencia quiere conocer algunos aspectos correspondientes a las tasas de inte
 
 # Reporte
 
+El reporte generado se puede descargar en el siguiente link
+
+https://raw.githubusercontent.com/javiermorenof7/javiermorenof7/main/riesgo_credito/data/reporte_consolidado.csv
+
 AWS 
 
  - Amazon Elastic Compute = Permite Alquilar Aplicaciones para realizarlas en la Nube
