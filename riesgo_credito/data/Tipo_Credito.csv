@@ -1,0 +1,8 @@
+tipo_credito,descripcion_tipo,cod_sub_tipo,sub_tipo_credito
+2,Consumo,1,Consumo
+1,Comercial,1,Comercial ordinario
+1,Comercial,2,Comercial preferencial o corporativo
+3,Hipotecario,4,Vivienda
+4,Microcredito,5,Microcrédito
+1,Comercial,6,Comercial tesorería
+1,Comercial,7,Comercial especial
