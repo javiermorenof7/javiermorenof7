@@ -4,7 +4,7 @@
 
 - 🦉 In the constant search for knowledge 😂.
 - 🗓 I am always thinking about how to solve problems 👁.
-- Goals for 2022:
+- Goals for 2024:
     - 🦊 Create more projects in Data Science 🤓
     - 🤭 Understand in more depth Statistics and its functionality and applications 🧐
     - 🤗 Be Happy and see the positive side of things.🤗
