@@ -183,18 +183,3 @@
 <div align="center" style="margin-top: 40px;">
 <p>"Data is the new oil" - Clive Humby | "Los datos son el nuevo petróleo" - Clive Humby</p>
 </div>
-
-<script>
-// Simple language toggle
-document.querySelector('a[href="#english"]').addEventListener('click', function(e) {
-  e.preventDefault();
-  document.getElementById('english').style.display = 'block';
-  document.getElementById('espanol').style.display = 'none';
-});
-
-document.querySelector('a[href="#espanol"]').addEventListener('click', function(e) {
-  e.preventDefault();
-  document.getElementById('english').style.display = 'none';
-  document.getElementById('espanol').style.display = 'block';
-});
-</script>
