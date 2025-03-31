@@ -13,7 +13,7 @@
 <div id="english">
 <h2>🚀 Professional Profile</h2>
 
-<p><strong>Data Engineer | Master in Data Engineering</strong> with expertise in large-scale data systems and AI implementations. Certified in AWS and Azure with strong background in:</p>
+<p><strong>Data Engineer | Master in Data Engineering</strong> with expertise in large-scale data systems and AI implementations. GCP with strong background in:</p>
 
 <table>
 <tr>
@@ -30,7 +30,7 @@
 <td width="33%" valign="top">
 <h3>☁ Cloud & AI</h3>
 <ul>
-<li>GCP/AWS/Azure Certified</li>
+<li>GCP/AWS/Azure</li>
 <li>Predictive Models</li>
 <li>Computer Vision</li>
 <li>LLM Deployment</li>
@@ -77,7 +77,7 @@
 <div id="espanol" style="display:none">
 <h2>🚀 Perfil Profesional</h2>
 
-<p><strong>Ingeniero de Datos | Magíster en Ingeniería de Datos</strong> con experiencia en sistemas de datos a gran escala e implementaciones de IA. Certificado en AWS y Azure con experiencia en:</p>
+<p><strong>Ingeniero de Datos | Magíster en Ingeniería de Datos</strong> con experiencia en sistemas de datos a gran escala e implementaciones de IA. GCP, experiencia en:</p>
 
 <table>
 <tr>
@@ -94,7 +94,7 @@
 <td width="33%" valign="top">
 <h3>☁ Cloud & IA</h3>
 <ul>
-<li>Certificado en GCP/AWS/Azure</li>
+<li>GCP/AWS/Azure</li>
 <li>Modelos Predictivos</li>
 <li>Visión Artificial</li>
 <li>Despliegue de LLMs</li>
