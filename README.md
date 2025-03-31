@@ -170,7 +170,7 @@
 <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=for-the-badge" alt="LinkedIn"/>
 </a>
 
-<a href="mailto:tu@email.com">
+<a href="mailto:@email.com">
 <img src="https://img.shields.io/badge/-Email-EA4335?logo=gmail&logoColor=white&style=for-the-badge" alt="Email"/>
 </a>
 
