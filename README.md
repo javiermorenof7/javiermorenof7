@@ -68,7 +68,7 @@
 <div align="center">
 <a href="https://github.com/javiermorenof7">
 <img src="https://github-readme-stats.vercel.app/api?username=javiermorenof7&show_icons=true&theme=radical" alt="Stats" width="48%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=javiermorenof7&layout=compact&theme=radical" alt="Top Langs" width="48%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=javiermorenof7&layout=compact&theme=radical" alt="Stats" width="48%"/>
 </a>
 </div>
 </div>
