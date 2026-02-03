@@ -12,9 +12,9 @@ La mayoría de los RAGs (Retrieval-Augmented Generation) solo buscan texto en do
 
 1.  **Guardián Financiero:** Antes de recomendar una compra, el agente cruza el precio del producto (obtenido por búsqueda semántica) contra el `saldo_disponible` del usuario (obtenido de la DB transaccional).
 2.  **Búsqueda Semántica (FAISS):** Puedes pedir "una compu para jugar" y el agente entenderá que buscas la *ASUS ROG*, sin necesidad de coincidencia exacta de palabras.
-3.  **astreo Inteligente:** Conecta con el historial de pedidos para responder preguntas de post-venta ("¿Dónde está mi mouse?") sin inventar datos.
+3.  **Rastreo Inteligente:** Conecta con el historial de pedidos para responder preguntas de post-venta ("¿Dónde está mi mouse?") sin inventar datos.
 
-## 🛠️ Stack Tecnológico
+## Stack Tecnológico
 
 He construido esto manteniendo las dependencias ligeras pero potentes:
 
@@ -33,12 +33,12 @@ El notebook ejecuta automáticamente 3 casos de uso que demuestran la flexibilid
 | **2. Validación de Crédito** | *"Quiero la Mac, ¿me alcanza?"* | Recupera el precio ($5.2M), mira el saldo ($5.0M) y **deniega la compra** amablemente, sugiriendo financiación. |
 | **3. Venta Cruzada** | *"Busco monitor para trabajo"* | Encuentra el monitor Samsung y sugiere el Mouse Logitech como complemento lógico. |
 
-## 🛠️ Cómo correrlo localmente
+## Cómo correrlo localmente
 
 1.  **Clona el repositorio**
     Descarga el proyecto o clona el repositorio en tu máquina local:
     ```bash
-    git clone [https://github.com/tu-usuario/davivienda-agent-test.git](https://github.com/tu-usuario/davivienda-agent-test.git)
+    git clone [https://github.com/javiermorenof7/javiermorenof7.git)
     cd davivienda-agent-test
     ```
 
