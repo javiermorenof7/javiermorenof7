@@ -1,1 +1,19 @@
-env
+# Entorno Virtual
+venv/
+env/
+.venv/
+google/
+
+# Python cache (archivos temporales de ejecución)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Credenciales y Configuración Sensible (¡Muy importante!)
+*.json
+.env
+google.py  # Archivo específico que mencionaste
+
+# OS específicos
+.DS_Store
+Thumbs.db
