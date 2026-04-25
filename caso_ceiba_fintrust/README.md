@@ -38,3 +38,30 @@ de pasos
 └── bonus/ # (Opcional) Propuesta de uso de
 LLMs
 └── llm_proposal.md
+
+# FinTrust Data Pipeline - Caso Práctico Ceiba
+
+Este proyecto automatiza la ingesta y transformación de datos financieros para la fintech **FinTrust**, consolidando indicadores de originación, recaudo y mora en Google BigQuery.
+
+## 🚀 Arquitectura
+Se implementó una arquitectura **ELT (Extract-Load-Transform)** siguiendo el patrón de capas de datos (Medallion):
+1. **Raw**: Datos transaccionales tal cual vienen de la fuente.
+2. **Staging**: Limpieza, tipado y estandarización.
+3. **Analytics**: Modelado de Data Marts listos para consumo en BI (Power BI/Looker).
+
+## 🛠️ Stack Tecnológico
+- **Google BigQuery**: Data Warehouse serverless.
+- **Python 3.13**: Orquestación y validaciones.
+- **SQL (Standard SQL)**: Transformaciones y lógica de negocio.
+
+## 📋 Requisitos e Instalación
+1. Clonar el repositorio.
+2. Crear un entorno virtual: `python -m venv venv`.
+3. Instalar dependencias: `pip install -r python/requirements.txt`.
+4. Configurar credenciales de GCP: `export GOOGLE_APPLICATION_CREDENTIALS="path/to/your/service-account.json"`.
+
+## ⚙️ Ejecución
+Para ejecutar el pipeline completo:
+```bash
+export GCP_PROJECT_ID="tu-id-de-proyecto"
+python python/pipeline.py
