@@ -4,6 +4,9 @@ Este repositorio contiene el diseño e implementación de una solución analíti
 
 💼 Para más detalles sobre mi experiencia y proyectos adicionales, te invito a visitar mi [Portafolio Profesional](https://javiermorenof7.github.io/cv_portafolio/).
 
+Tablero BI
+![Descripción de la imagen](docs/img/Tablero%20Data%20Loker%20BI.png)
+
 ### Estructura del Proyecto 📂
 El proyecto está organizado en capas lógicas para separar la ingesta, transformación y consumo de datos:
 
@@ -26,6 +29,9 @@ caso_ceiba_fintrust/
     └── 04-queries-negocio/         # Consultas para responder preguntas de negocio
 ├── README.md                       # Documentación principal: contexto
 ```
+# Estructura GCP
+![Descripción de la imagen](docs/img/Estructura%20Proyecto%20GCP.png)
+
 
 # 🚀 Comenzando
  
@@ -82,19 +88,19 @@ python python/pipeline.py
 
 Se observa que el ETL comienza a detectar errores
 
-![Descripción de la imagen](img/Ejecucion%20Falla%20Pipeline%20GCP.png)
+![Descripción de la imagen](docs/img/Ejecucion%20Falla%20Pipeline%20GCP.png)
 
 *Prueba ejecucion 2:*
 
 Se observa que el ETL detecta cuando la ruta del python no esta correcta, ademas que se visuliza que las ejecucion corrieron correctamente
 
-![Descripción de la imagen](img/ejecucion%20pepiline%20prueba%202.png)
+![Descripción de la imagen](docs/img/ejecucion%20pepiline%20prueba%202.png)
 
 *Prueba ejecucion 3:*
 
 Una vez detectado el error se corrije y se valida nuevamente la ETL, la cual se procede a correr, validando que todo ejecuto correctamente, se puede tambien vizuzalizar los errores anteriores en el historial de trabajo en GCP Bigquery
 
-![Descripción de la imagen](img/Ejecucion%20Final%20ETL.png)
+![Descripción de la imagen](docs/img/Ejecucion%20Final%20ETL.png)
  
 > 💡 **Nota:** La consola imprimirá un log en tiempo real confirmando la creación de las tablas capa por capa (`Raw ➔ Staging ➔ Analytics`).
  
@@ -150,6 +156,7 @@ Para un entorno productivo completo, se recomienda orquestar los scripts `pipeli
  
 - 🚀 A **Ceiba** por plantear un caso de uso estratégico y alineado con los retos reales del sector financiero.
 - 🌐 A las comunidades de **Ingeniería de Datos** por promover arquitecturas pragmáticas y orientadas al valor de negocio.
+- LLMs de ayuda Gemini y Cloude para darme ideas y desarrollar una excelente prueba tecnica a la altura de un inegiero de datos 
 ---
  
 ⌨️ Construido con ❤️ por **Francisco Javier Garcia Moreno**
