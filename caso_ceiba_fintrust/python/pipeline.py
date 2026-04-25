@@ -46,9 +46,9 @@ class FinTrustETL:
             ("caso_ceiba_fintrust/sql/03-analytics/dm_*.sql", "Creacion Capa Analytics"),
             ("caso_ceiba_fintrust/sql/04-queries-negocio/q01_desembolso_diario.sql", "Creacion Caso Uso Desembolso Diario"),
             ("caso_ceiba_fintrust/sql/04-queries-negocio/q02_recaudo_diario.sql", "Creacion Caso Uso Recaudo Diario"),
-            ("caso_ceiba_fintrust/sql/04-queries-negocio/q03_analisis_pareto.sql", "Creacion Caso Uso Análisis Pareto"),
-            ("caso_ceiba_fintrust/sql/04-queries-negocio/q04_metricas_bi.sql", "Creacion Caso Uso Métricas BI"),
-            ("caso_ceiba_fintrust/sql/04-queries-negocio/q05_dataset_bi.sql", "Creacion Caso Uso Dataset BI"),
+            ("caso_ceiba_fintrust/sql/04-queries-negocio/q03_cartera_por_cohorte.sql", "Creacion Caso Uso Cartera por Cohorte"),
+            ("caso_ceiba_fintrust/sql/04-queries-negocio/q04_top_atraso.sql", "Creacion Caso Uso Top Atraso"),
+            ("caso_ceiba_fintrust/sql/04-queries-negocio/q05_pareto.sql", "Creacion Caso Uso Pareto"),
         ]
 
         for path, desc in steps:
