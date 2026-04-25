@@ -89,6 +89,12 @@ Se observa que el ETL comienza a detectar errores
 Se observa que el ETL detecta cuando la ruta del python no esta correcta, ademas que se visuliza que las ejecucion corrieron correctamente
 
 ![Descripción de la imagen](img/ejecucion%20pepiline%20prueba%202.png)
+
+*Prueba ejecucion 3:*
+
+Una vez detectado el error se corrije y se valida nuevamente la ETL, la cual se procede a correr, validando que todo ejecuto correctamente, se puede tambien vizuzalizar los errores anteriores en el historial de trabajo en GCP Bigquery
+
+![Descripción de la imagen](img/Ejecucion%20Final%20ETL.png)
  
 > 💡 **Nota:** La consola imprimirá un log en tiempo real confirmando la creación de las tablas capa por capa (`Raw ➔ Staging ➔ Analytics`).
  
@@ -101,6 +107,7 @@ El sistema cuenta con un motor automatizado de Data Quality (`validations.py`). 
 ```bash
 python3 caso_ceiba_fintrust/python/validations.py
 ```
+*Se puede vizulizar que se estan detectando errores en la data deacuerdo a las reglas de calidad que se definieron, esto se puede corregir en el codigo, detectando futuras anomalias en la calidad de los datos segun sea el caso*
 
 ![Descripción de la imagen](img/validaciones-data-quality.png)
  
