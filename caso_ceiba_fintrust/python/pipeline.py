@@ -41,10 +41,10 @@ class FinTrustETL:
         
         # Lista de capas a procesar según tu estructura de carpetas
         steps = [
-            ("sql/01-raw/create_raw_tables.sql", "Creación de Tablas Raw"),
-            ("sql/02-staging/stg_customers.sql", "Staging: Clientes"),
-            ("sql/02-staging/stg_loans.sql", "Staging: Créditos"),
-            ("sql/03-analytics/dm_fintrust_metrics.sql", "Capa Analytics")
+            ("caso_ceiba_fintrust/sql/01-raw/create_raw_tables.sql", "Creación de Tablas Raw"),
+            ("caso_ceiba_fintrust/sql/02-staging/stg_*.sql", "Creacion Capa Staging"),
+            ("caso_ceiba_fintrust/sql/03-analytics/dm_*.sql", "Creacion Capa Analytics"),
+            ("caso_ceiba_fintrust/sql/04-queries-negocio/q01_desembolso_diario.sql", "Creacion Caso Uso Desembolso Diario"),
         ]
 
         for path, desc in steps:
