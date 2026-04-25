@@ -1,3 +1,5 @@
+CREATE OR REPLACE TABLE `proyecto-prueba-367518.analytics_fintrust.bi_desembolso_resumen` AS
+
 WITH CreditosUnicos AS (
     SELECT DISTINCT 
         loan_id, 

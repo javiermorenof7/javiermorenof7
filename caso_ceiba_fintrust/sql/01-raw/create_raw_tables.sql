@@ -88,9 +88,7 @@ WHEN NOT MATCHED THEN
 -- Créditos
 MERGE `proyecto-prueba-367518.raw_fintrust.loans` T
 USING (
-    SELECT 'L001' as loan_id, 'C001' as customer_id, DATE '2024-11-15' as origination_date, 5000000 as principal_amount, 0.15 as annual_rate, 12 as term_months, 'ACTIVE' as loan_status, 'PERSONAL' as product_type
-    UNION ALL SELECT 'L002','C002','2024-12-05',12000000,0.12,24,'ACTIVE','VEHICLE'
-    UNION ALL SELECT 'L001','C001','2025-01-05',12000000,0.24,12,'ACTIVE','Payroll'
+    SELECT 'L001' as loan_id, 'C001' as customer_id, DATE '2025-01-05' as origination_date, 12000000 as principal_amount, 0.24 as annual_rate, 12 as term_months, 'ACTIVE' as loan_status, 'Payroll' as product_type
     UNION ALL SELECT 'L002','C002','2025-01-12',25000000,0.21,18,'ACTIVE','Digital'
     UNION ALL SELECT 'L003','C003','2025-01-20',8000000,0.28,10,'ACTIVE','Payroll'
     UNION ALL SELECT 'L004','C004','2025-02-03',45000000,0.19,24,'ACTIVE','SME'
@@ -144,9 +142,7 @@ WHEN NOT MATCHED THEN
 -- Cuotas programadas
 MERGE `proyecto-prueba-367518.raw_fintrust.installments` T
 USING (
-  SELECT 'I001' as installment_id, 'L001' as loan_id, 1 as installment_number, DATE '2024-12-15' as due_date, 416667 as principal_due, 62500 as interest_due, 'PAID' as installment_status
-    UNION ALL SELECT 'I002','L001',2,'2025-01-15',416667,57292,'DUE'
-    UNION ALL SELECT 'I001','L001',1,'2025-02-05',1000000,240000,'PAID'
+    SELECT 'I001' as installment_id, 'L001' as loan_id, 1 as installment_number, DATE '2025-02-05' as due_date, 1000000 as principal_due, 240000 as interest_due, 'PAID' as installment_status
     UNION ALL SELECT 'I002','L001',2,'2025-03-05',1000000,220000,'LATE'
     UNION ALL SELECT 'I003','L001',3,'2025-04-05',1000000,200000,'DUE'
     UNION ALL SELECT 'I004','L002',1,'2025-02-12',1388889,437500,'PAID'
@@ -290,8 +286,7 @@ WHEN NOT MATCHED THEN
 -- Pagos recibidos
 MERGE `proyecto-prueba-367518.raw_fintrust.payments` T
 USING (
-    SELECT 'P001' as payment_id, 'L001' as loan_id, 'I001' as installment_id, DATE '2024-12-14' as payment_date, 479167 as payment_amount, 'PSE' as payment_channel, 'CONFIRMED' as payment_status, CURRENT_TIMESTAMP() as loaded_at
-    UNION ALL SELECT 'P001','L001','I001','2025-02-05',1240000,'PSE','CONFIRMED',CURRENT_TIMESTAMP()
+    SELECT 'P001' as payment_id, 'L001' as loan_id, 'I001' as installment_id, DATE '2025-02-05' as payment_date, 1240000 as payment_amount, 'PSE' as payment_channel, 'CONFIRMED' as payment_status, CURRENT_TIMESTAMP() as loaded_at
     UNION ALL SELECT 'P002','L002','I004','2025-02-13',1826389,'ACH','CONFIRMED',CURRENT_TIMESTAMP()
     UNION ALL SELECT 'P003','L002','I005','2025-03-12',1802083,'ACH','CONFIRMED',CURRENT_TIMESTAMP()
     UNION ALL SELECT 'P004','L003','I007','2025-02-20',986667,'ACH','CONFIRMED',CURRENT_TIMESTAMP()

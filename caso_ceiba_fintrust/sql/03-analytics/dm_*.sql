@@ -84,8 +84,22 @@ SELECT
         WHEN i.installment_status = 'PAID' AND p.ultima_fecha_pago > i.due_date 
             THEN DATE_DIFF(p.ultima_fecha_pago, i.due_date, DAY)
         ELSE 0 
-    END AS days_late
+    END AS days_late,
 
+    -- Lógica de Negocio Pre-calculada
+    CASE 
+        WHEN COALESCE(p.total_pagado, 0) >= i.total_due_amount THEN 'PAGADA'
+        WHEN i.due_date < CURRENT_DATE() THEN 'MORA'
+        ELSE 'AL DIA'
+    END AS estado_gestion,
+    CASE 
+        WHEN COALESCE(p.total_pagado, 0) < i.total_due_amount AND i.due_date < CURRENT_DATE() 
+        THEN DATE_DIFF(CURRENT_DATE(), i.due_date, DAY)
+        ELSE 0 
+    END AS dias_mora,
+    -- Métrica de Riesgo (DTI)
+    ROUND(SAFE_DIVIDE(i.total_due_amount, c.monthly_income) * 100, 2) AS indice_dti
+    
 FROM `proyecto-prueba-367518.stg_fintrust.stg_installments` i
 -- INNER JOIN hacia arriba: Toda cuota debe tener un crédito y un cliente (Integridad Referencial)
 INNER JOIN `proyecto-prueba-367518.stg_fintrust.stg_loans` l 
