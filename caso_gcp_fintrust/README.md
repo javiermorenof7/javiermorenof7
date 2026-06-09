@@ -1,4 +1,4 @@
-# FinTrust Data Pipeline - Prueba Técnica Ceiba
+# FinTrust Data Pipeline 
 
 Este repositorio contiene el diseño e implementación de una solución analítica automatizada sobre Google Cloud Platform (BigQuery) para **FinTrust**, una fintech de crédito de consumo. El objetivo principal es eliminar los procesos manuales (descargas de reportes y cruces en Excel), reducir el *lag* analítico de 2 días a 0, y entregar un Data Mart centralizado y auditable listo para ser consumido por herramientas de BI (Looker).
 
