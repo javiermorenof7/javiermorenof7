@@ -11,7 +11,7 @@ Tablero BI
 El proyecto está organizado en capas lógicas para separar la ingesta, transformación y consumo de datos:
 
 ```text
-caso_ceiba_fintrust/
+caso_gcp_fintrust/
 ├── bonus/                          # (Opcional) Propuesta de uso deLLMs
 │   ├── llm_proposal.md             # Propuesta de uso de LLMs
 ├── img/                            # imganes de la solucion
@@ -53,7 +53,7 @@ Sigue este paso a paso para configurar tu entorno y ejecutar el pipeline:
  
 ```bash
 git clone https://github.com/javiermorenof7/javiermorenof7.git
-cd caso_ceiba_fintrust
+cd caso_gcp_fintrust
 ```
  
 **2. Configura el entorno virtual (Recomendado):**
@@ -111,7 +111,7 @@ Una vez detectado el error se corrije y se valida nuevamente la ETL, la cual se 
 El sistema cuenta con un motor automatizado de Data Quality (`validations.py`). Para validarlo, ejecuta:
  
 ```bash
-python3 caso_ceiba_fintrust/python/validations.py
+python3 caso_gcp_fintrust/python/validations.py
 ```
 *Se puede vizulizar que se estan detectando errores en la data deacuerdo a las reglas de calidad que se definieron, esto se puede corregir en el codigo, detectando futuras anomalias en la calidad de los datos segun sea el caso*
 
@@ -154,7 +154,6 @@ Para un entorno productivo completo, se recomienda orquestar los scripts `pipeli
  
 ## 🎁 Expresiones de Gratitud
  
-- 🚀 A **Ceiba** por plantear un caso de uso estratégico y alineado con los retos reales del sector financiero.
 - 🌐 A las comunidades de **Ingeniería de Datos** por promover arquitecturas pragmáticas y orientadas al valor de negocio.
 - LLMs de ayuda Gemini y Cloude para darme ideas y desarrollar una excelente prueba tecnica a la altura de un inegiero de datos 
 ---
