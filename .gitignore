@@ -17,3 +17,5 @@ google.py  # Archivo específico que mencionaste
 # OS específicos
 .DS_Store
 Thumbs.db
+
+yes/

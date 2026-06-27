@@ -1,0 +1,6 @@
+identification_number|;|municipio_code|;|procedimiento|;|requiere_preparacion|;|specialty_name
+CC101010|;|11001|;|Endoscopia Digestiva|;|Si|;|Gastroenterología
+CC202020|;|05001|;|Consulta Control|;|No|;|Medicina General
+CC303030|;|76001|;|Electrocardiograma|;|Si|;|Cardiología
+CC101010|;|11001|;|Terapia Física|;|No|;|Fisioterapia
+CC404040|;|11001|;|Consulta Especialista|;|No|;|Gastroenterología
