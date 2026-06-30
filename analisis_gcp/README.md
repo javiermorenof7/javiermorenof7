@@ -1,4 +1,4 @@
-# Resolución Prueba Técnica: Ingeniería de Datos en GCP
+# Ingeniería de Datos en GCP
 
 Este repositorio se enfocada en la construcción de un flujo completo de procesamiento de datos en Google Cloud Platform (GCP). 
 

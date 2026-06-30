@@ -65,7 +65,7 @@ with DAG(
             procedure_code, 
             transaction_date, 
             status, 
-            CAST('{{ ds }}' AS DATE) AS execution_date 
+            CAST('{{{{ ds }}}}' AS DATE) AS execution_date 
         FROM `{PROJECT_ID}.{DATASET_ID}.bronze_transacciones`
     ) S
     ON T.transaction_id = S.transaction_id
