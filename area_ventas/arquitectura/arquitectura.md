@@ -1,3 +1,5 @@
+# Diseño, Arquitectura y solucion de ventas
+
 Explica qué herramientas y flujo propondrías para
 automatizar la lectura de este Excel (u otros orígenes) hasta la visualización.
 o Pregunta clave: ¿Cómo pasarías de un Excel local a una solución empresarial
@@ -142,3 +144,57 @@ Para implementar esta arquitectura de alto impacto, se proponen las siguientes h
 1. **Escalabilidad Elástica:** La infraestructura Serverless (como BigQuery) permite procesar desde unos pocos Megabytes (un Excel) hasta múltiples Terabytes sin necesidad de reconfigurar servidores ni cambiar el código base.
 2. **Gobernanza y Seguridad:** Al utilizar Cloud Storage y un DWH corporativo, se aplican políticas de acceso por roles (IAM), asegurando que solo el personal autorizado acceda a la información sensible.
 3. **Eficiencia en BI:** Al trasladar toda la carga de procesamiento a la nube (Capas Plata y Oro), los tableros de visualización son extremadamente ligeros y rápidos, mejorando significativamente la experiencia del usuario final.
+
+![Descripción de la imagen](/area_ventas/capturas/gcp.png)
+
+
+# ¿Cómo responderías con este modelo al "Top 10 de productos por categoría"?
+
+```sql
+
+SELECT 
+    p.category,
+    p.product,
+    SUM(s.sales_amount) AS total_ventas
+FROM 
+    `javier-proyecto-502616.ventas_bronce.sales_data` AS s
+JOIN 
+    `javier-proyecto-502616.ventas_bronce.product_data` AS p
+    ON s.productkey = p.productkey
+GROUP BY 
+    1, 2
+QUALIFY ROW_NUMBER() OVER(PARTITION BY p.category ORDER BY SUM(s.sales_amount) DESC) <= 10
+ORDER BY 
+    1, 3 DESC;
+
+```
+
+![Descripción de la imagen](/area_ventas/capturas/top10.png)
+
+
+# Análisis de Negocio:
+
+El área de Compras aún no tiene indicadores.Propón 2 KPIs críticos que se podrían extraer si tuviéramos los datos de proveedores y órdenes de compra. Justifica por qué son importantes.
+
+- La tabla de hecho es la tabla principal la cual es sales-data, esta es la informacion de ventas, la cual unifica toda la transaccionalidad que se ve en la organizacion, esta informacion es primordial ya que me ayuda a identificar muchas variables y muchos KPS que pueden ayuda a la roganizacion
+
+  - en el caso que contemos con informacion de provedores y ordenes de compra, es ajusta el modelo como seria la mejor arquitectura para incluir esta informacion
+
+  - los provedores me pueden ayudar a indetificar que productos estoy vendiendo mas y por que y a mejorar las costos para validar si un provedor justifica el coste de lo que estoy vendiendo, y la orgedes de compra me pueden ayudar a identificar el volumen de ventas de un productos
+
+  - KPI 1 Costo por provedor segun el volumen de compras : esto me puede ayudar a identificar si el provedor y su coste justifica el volumen de compras de cada producto que stoy vendiendo
+
+  - KPI 2 Costo de producto por volumen de compras : este me puede ayudar si el volumen de las compras justifica el producto y la inversion que estoy haciendo para vender este producto
+
+# Plan de Trabajo - MVP
+
+Diseña un cronograma de 4 semanas para entregar un tablero funcional de Ventas. ¿Qué harías en cada semana?
+
+ - Semana 1 : Diseño de la arquitectura y entendiemiento de negocio
+
+ - Semana 2 : Implementacion de la data
+
+ - Semana 3 : validacion y implementacion de la solucion
+
+ - Semana 4 : Produccion
+ 
