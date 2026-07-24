@@ -1,4 +1,10 @@
-# Presentación
+# Presentación Final Caso de Uso Seguros AltaVida
+
+## Estado del Arte de Seguros Alta Vida
+![Descripción de la imagen](/seguros_altavida/capturas/IA_en_Seguros__Eficiencia_Operativa.png)
+
+## PLanteamineto de la solucion
+![Descripción de la imagen](/seguros_altavida/capturas/IA_Estratégica__Transformación_en_Altavida.png)
 
 ## Transformación - Proceso de manejo de Datos e IA
 ![Descripción de la imagen](/seguros_altavida/capturas/IA_y_transformación_en_seguros.png)
