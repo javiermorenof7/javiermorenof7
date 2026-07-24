@@ -1,6 +1,6 @@
-# Presentacion
+# Presentación
 
-## Transformacion - Proceso de manejo de Datos e IA
+## Transformación - Proceso de manejo de Datos e IA
 ![Descripción de la imagen](/seguros_altavida/capturas/IA_y_transformación_en_seguros.png)
 
 ## Arquitectura en la Nube con GCP
