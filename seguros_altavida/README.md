@@ -1,3 +1,11 @@
+# Presentacion
+
+## Transformacion - Proceso de manejo de Datos e IA
+![Descripción de la imagen](/seguros_altavida/capturas/IA_y_transformación_en_seguros.png)
+
+## Arquitectura en la Nube con GCP
+![Descripción de la imagen](/seguros_altavida/capturas/Arquitectura_IA_para_Sector_Salud.png)
+
 # Seguros Altavida
 
 Seguros Altavida es una compañía de seguros que administra el aseguramiento en salud de sus
