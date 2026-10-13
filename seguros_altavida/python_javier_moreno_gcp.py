@@ -42,9 +42,9 @@ df_modelo = df_join.groupby('Afiliado_Id').agg(
 df_modelo['ratio_gasto_salario'] = round(df_modelo['gasto_total'] / df_modelo['salario'], 4)
 
 # 5. EXPORTACIÓN LOCAL A CARPETA 'data'
-os.makedirs('data', exist_ok=True)  
-df_modelo.to_csv('data/dataset_analitico_final.csv', index=False, encoding='utf-8')
-print("\n[Éxito] Archivo local guardado en: data/dataset_analitico_final.csv")
+os.makedirs('seguros_altavida/data', exist_ok=True)
+df_modelo.to_csv('seguros_altavida/data/dataset_analitico_final.csv', index=False, encoding='utf-8')
+print("\n[Éxito] Archivo local guardado en: seguros_altavida/data/dataset_analitico_final.csv")
 
 # ==============================================================================
 # 6. ELIMINACIÓN Y CREACIÓN DE TABLAS EN BIGQUERY
