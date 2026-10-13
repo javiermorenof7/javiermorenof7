@@ -22,6 +22,12 @@ Each folder in this repository is a case I worked through end to end. The data i
 | [Seguros AltaVida](seguros_altavida) | Data processing, machine learning and a cloud architecture to take a health insurer's analytics from one-off solutions to production. |
 | [Sales architecture](area_ventas) | Takes a sales workbook from a local Excel file to an architecture on Google Cloud that scales. |
 
+### Pipelines on AWS
+
+| Project | What it does |
+| --- | --- |
+| [Academic calendars on Databricks](calendarios_databricks_aws) | Takes the calendars that partner universities drop in S3 through bronze, silver and gold Delta tables on Databricks. Files that have not changed are skipped, and rows that cannot be used are set aside with the reason. |
+
 ### AI
 
 | Project | What it does |
@@ -42,7 +48,7 @@ Each folder in this repository is a case I worked through end to end. The data i
 | Area | What I use |
 | --- | --- |
 | Languages | Python, SQL, Scala |
-| Pipelines | Spark, Airflow, ODI, Pentaho, NiFi |
+| Pipelines | Spark, Databricks, Airflow, ODI, Pentaho, NiFi |
 | Cloud | Google Cloud, AWS, Azure |
 | Databases | BigQuery, PostgreSQL, MySQL, SQL Server |
 | BI | Power BI, Tableau |

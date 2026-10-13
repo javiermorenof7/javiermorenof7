@@ -22,6 +22,12 @@ Cada carpeta de este repositorio es un caso que resolví de principio a fin. Los
 | [Seguros AltaVida](seguros_altavida) | Procesamiento de datos, machine learning y una arquitectura en la nube para llevar la analítica de una aseguradora de salud de soluciones puntuales a producción. |
 | [Arquitectura de ventas](area_ventas) | Lleva un libro de ventas de un Excel local a una arquitectura escalable en Google Cloud. |
 
+### Pipelines en AWS
+
+| Proyecto | Qué hace |
+| --- | --- |
+| [Calendarios académicos en Databricks](calendarios_databricks_aws) | Lleva los calendarios que las universidades aliadas dejan en S3 por las capas bronce, plata y oro en tablas Delta de Databricks. Los ficheros que no han cambiado se omiten y las filas que no se pueden usar se apartan con su motivo. |
+
 ### IA
 
 | Proyecto | Qué hace |
@@ -42,7 +48,7 @@ Cada carpeta de este repositorio es un caso que resolví de principio a fin. Los
 | Área | Qué uso |
 | --- | --- |
 | Lenguajes | Python, SQL, Scala |
-| Pipelines | Spark, Airflow, ODI, Pentaho, NiFi |
+| Pipelines | Spark, Databricks, Airflow, ODI, Pentaho, NiFi |
 | Nube | Google Cloud, AWS, Azure |
 | Bases de datos | BigQuery, PostgreSQL, MySQL, SQL Server |
 | BI | Power BI, Tableau |
