@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 320" width="880" height="320" role="img" aria-labelledby="t d">
+<title id="t">Javier Moreno, data engineer</title>
+<desc id="d">A data pipeline: files land in storage, pass through bronze, silver and gold layers, and feed dashboards and models.</desc>
+<style>
+text{font-family:'Avenir Next', 'Segoe UI Variable Display', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;fill:#1F2933}
+.h{font-size:60px;font-weight:700;letter-spacing:-1.5px}
+.s{font-size:21px;font-weight:500}
+.n{font-size:16px;font-weight:600}
+.m{font-size:13px;fill:#5B6775}
+.e{fill:none;stroke:#9AA5B1;stroke-width:2}
+.f{fill:none;stroke:#1F2933;stroke-width:3;stroke-linecap:round;stroke-dasharray:1 17;animation:f 1.6s linear infinite}
+@keyframes f{to{stroke-dashoffset:-18}}
+@media (prefers-reduced-motion:reduce){.f{animation:none}}
+</style>
+<text x="40" y="76" class="h">Javier Moreno</text>
+<text x="42" y="116" class="s">Data engineer. I build pipelines on Google Cloud,</text>
+<text x="42" y="144" class="s">from raw files to dashboards and models.</text>
+<path class="e" d="M85 236H225M255 236H395M425 236H565M595 236C640 236 640 196 689 196M595 236C640 236 640 276 689 276"/>
+<path class="f" d="M85 236H225M255 236H395M425 236H565M595 236C640 236 640 196 689 196M595 236C640 236 640 276 689 276"/>
+<rect x="58" y="221" width="24" height="30" rx="3" fill="none" stroke="#1F2933" stroke-width="2"/><path d="M64 231h12M64 237h12M64 243h7" stroke="#1F2933" stroke-width="2" stroke-linecap="round"/><text x="70" y="278" text-anchor="middle" class="n">Files</text><text x="70" y="297" text-anchor="middle" class="m">as they arrive</text><circle cx="240" cy="236" r="15" fill="#B0703C"/><circle cx="240" cy="236" r="10" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity=".7"/><text x="240" y="278" text-anchor="middle" class="n">Bronze</text><text x="240" y="297" text-anchor="middle" class="m">raw, with a schema</text><circle cx="410" cy="236" r="15" fill="#8E9AA8"/><circle cx="410" cy="236" r="10" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity=".7"/><text x="410" y="278" text-anchor="middle" class="n">Silver</text><text x="410" y="297" text-anchor="middle" class="m">clean, deduplicated</text><circle cx="580" cy="236" r="15" fill="#D29A1E"/><circle cx="580" cy="236" r="10" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity=".7"/><text x="580" y="278" text-anchor="middle" class="n">Gold</text><text x="580" y="297" text-anchor="middle" class="m">ready for the business</text><circle cx="700" cy="196" r="9" fill="none" stroke="#1F2933" stroke-width="2"/><text x="720" y="201" class="n">Dashboards</text><circle cx="700" cy="276" r="9" fill="none" stroke="#1F2933" stroke-width="2"/><text x="720" y="281" class="n">Models and agents</text>
+</svg>
