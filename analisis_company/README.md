@@ -19,7 +19,7 @@
 
 # Modelo dimensional
 
-![Kitten](capturas/modelo%20dimencional.drawio.png)
+![Kitten](capturas/modelo_dimensional.png)
 
 # Modelo obtener la tabla de análisis
 
@@ -27,7 +27,7 @@
 
 la tabla unificada o la tabla final es la siguiente:
 
-![Kitten](capturas/Captura%20de%20pantalla%202022-10-12%20105846.png)
+![Kitten](capturas/01.png)
 
 la data descargable la podemos obtener del siguiente link
 
@@ -39,4 +39,4 @@ Una vez obtenida esta tabla podemos realizar los siguientes análisis
 
 > https://public.tableau.com/app/profile/francisco2414/viz/Company_16655277589250/Dashboard1
 
-![Kitten](capturas/Captura%20de%20pantalla%202022-10-11%20230801.png)
+![Kitten](capturas/02.png)

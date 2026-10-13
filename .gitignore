@@ -1,21 +1,22 @@
-# Entorno Virtual
+# Entornos virtuales
 venv/
 env/
 .venv/
-google/
 
-# Python cache (archivos temporales de ejecución)
+# Caché de Python
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Credenciales y Configuración Sensible (¡Muy importante!)
+# Credenciales y configuración sensible
 *.json
 .env
-google.py  # Archivo específico que mencionaste
+google.py
 
-# OS específicos
+# SDK de Google Cloud
+google/
+yes/
+
+# Sistema operativo
 .DS_Store
 Thumbs.db
-
-yes/
