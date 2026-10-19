@@ -42,8 +42,8 @@ class FinTrustETL:
         # Lista de capas a procesar según tu estructura de carpetas
         steps = [
             ("caso_ceiba_fintrust/sql/01-raw/create_raw_tables.sql", "Creación de Tablas Raw"),
-            ("caso_ceiba_fintrust/sql/02-staging/stg_*.sql", "Creacion Capa Staging"),
-            ("caso_ceiba_fintrust/sql/03-analytics/dm_*.sql", "Creacion Capa Analytics"),
+            ("caso_ceiba_fintrust/sql/02-staging/stg_fintrust.sql", "Creacion Capa Staging"),
+            ("caso_ceiba_fintrust/sql/03-analytics/dm_fintrust.sql", "Creacion Capa Analytics"),
             ("caso_ceiba_fintrust/sql/04-queries-negocio/q01_desembolso_diario.sql", "Creacion Caso Uso Desembolso Diario"),
             ("caso_ceiba_fintrust/sql/04-queries-negocio/q02_recaudo_diario.sql", "Creacion Caso Uso Recaudo Diario"),
             ("caso_ceiba_fintrust/sql/04-queries-negocio/q03_cartera_por_cohorte.sql", "Creacion Caso Uso Cartera por Cohorte"),
