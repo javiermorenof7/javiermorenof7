@@ -9,7 +9,7 @@ English | [Español](README.es.md)
 
 Data engineer with 5+ years designing ETL/ELT pipelines and medallion architectures on GCP, AWS and Azure for the financial, retail, logistics and education sectors. I take data from ingestion to analysis and models in production, with automated tests and controlled deployment.
 
-[Portfolio](https://javiermorenof7.github.io/cv_portafolio/) | [LinkedIn](https://www.linkedin.com/in/francisco-javier-garcia-moreno-78b184166)
+[Portfolio](https://javiermorenof7.github.io/cv_portafolio/) | [LinkedIn](https://www.linkedin.com/in/francisco-javier-garcia-moreno)
 
 ## Projects
 

@@ -9,7 +9,7 @@
 
 Ingeniero de datos con más de 5 años diseñando pipelines ETL/ELT y arquitecturas medallón en GCP, AWS y Azure para los sectores financiero, retail, logístico y educativo. Llevo los datos desde la ingesta hasta el análisis y los modelos en producción, con pruebas automáticas y despliegue controlado.
 
-[Portafolio](https://javiermorenof7.github.io/cv_portafolio/) | [LinkedIn](https://www.linkedin.com/in/francisco-javier-garcia-moreno-78b184166)
+[Portafolio](https://javiermorenof7.github.io/cv_portafolio/) | [LinkedIn](https://www.linkedin.com/in/francisco-javier-garcia-moreno)
 
 ## Proyectos
 
