@@ -155,7 +155,6 @@ Para un entorno productivo completo, se recomienda orquestar los scripts `pipeli
 ## 🎁 Expresiones de Gratitud
  
 - 🌐 A las comunidades de **Ingeniería de Datos** por promover arquitecturas pragmáticas y orientadas al valor de negocio.
-- LLMs de ayuda Gemini y Cloude para darme ideas y desarrollar una excelente prueba tecnica a la altura de un inegiero de datos 
 ---
  
 ⌨️ Construido con ❤️ por **Francisco Javier Garcia Moreno**

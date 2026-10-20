@@ -1,11 +1,13 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/pipeline-es-dark.svg">
-  <img src="assets/pipeline-es-light.svg" alt="Javier Moreno, ingeniero de datos. Un pipeline que lleva los ficheros por las capas bronce, plata y oro hasta tableros y modelos." width="100%">
+  <img src="assets/pipeline-es-light.svg" alt="Francisco Javier Garcia Moreno, ingeniero de datos. Un pipeline que lleva los ficheros por las capas bronce, plata y oro hasta tableros y modelos." width="100%">
 </picture>
 
 [English](README.md) | Español
 
-Soy ingeniero de datos, con un máster en Ingeniería de Datos. Diseño pipelines ETL y ELT, sobre todo en Google Cloud, y pongo en producción modelos predictivos y LLM sobre ellos.
+[![CI](https://github.com/javiermorenof7/javiermorenof7/actions/workflows/ci.yml/badge.svg)](https://github.com/javiermorenof7/javiermorenof7/actions/workflows/ci.yml)
+
+Ingeniero de datos con más de 5 años diseñando pipelines ETL/ELT y arquitecturas medallón en GCP, AWS y Azure para los sectores financiero, retail, logístico y educativo. Llevo los datos desde la ingesta hasta el análisis y los modelos en producción, con pruebas automáticas y despliegue controlado.
 
 [Portafolio](https://javiermorenof7.github.io/cv_portafolio/) | [LinkedIn](https://www.linkedin.com/in/francisco-javier-garcia-moreno-78b184166)
 
@@ -43,17 +45,19 @@ Cada carpeta de este repositorio es un caso que resolví de principio a fin. Los
 | [Recomendación de productos](analisis_probabilistico_tiendas) | Un análisis probabilístico de si un producto es una buena recomendación para otro. |
 | [Limpieza y transformación](limpieza_trasformacion) | Un notebook que convierte un Excel desordenado en un conjunto de datos limpio. |
 
+## Cómo se opera
+
+- Cada carpeta es un proyecto independiente con su propio README: qué resuelve, cómo ejecutarlo y sus datos de ejemplo.
+- Entorno: Python 3.12 y `pip install -r requirements.txt` en un entorno virtual. Los proyectos en la nube (Google Cloud, Databricks) necesitan además su cuenta y su configuración, descritas en su README.
+- Cada push a `main` pasa por el CI: comprueba la sintaxis de todos los archivos de Python y que todos los notebooks sean válidos.
+
 ## Herramientas
 
 | Área | Qué uso |
 | --- | --- |
-| Lenguajes | Python, SQL, Scala |
-| Pipelines | Spark, Databricks, Airflow, ODI, Pentaho, NiFi |
+| Lenguajes | Python, SQL, Scala, PySpark |
+| Plataformas de datos | Databricks, BigQuery, Delta Lake, Unity Catalog, Redshift, Synapse, PostgreSQL |
 | Nube | Google Cloud, AWS, Azure |
-| Bases de datos | BigQuery, PostgreSQL, MySQL, SQL Server |
-| BI | Power BI, Tableau |
-| IA | Modelos predictivos, visión artificial, despliegue de LLM |
-
-## Aprendiendo ahora
-
-Arquitecturas de datos en tiempo real, optimización de LLM y data mesh.
+| Orquestación | Airflow (Cloud Composer, MWAA), Azure Data Factory, jobs de Databricks |
+| Analítica e IA | Power BI, Tableau, Looker Studio, Pandas, Scikit-learn, NLTK, LangChain, FAISS, Vertex AI |
+| Prácticas | Arquitectura medallón, carga incremental con MERGE, cargas idempotentes, calidad de datos, modelado dimensional (estrella), pruebas SQL automáticas, Git y merge requests |

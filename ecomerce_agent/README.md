@@ -1,84 +1,39 @@
-# Agente IA: Banca + E-commerce (RAG Híbrido)
+# Agente de banca y e-commerce
 
-> *"Los LLMs saben hablar, pero no saben cuánto dinero tienes en el banco. Este proyecto soluciona eso."*
+Prototipo de asistente para un escenario de banca y comercio electrónico. Responde preguntas del cliente combinando dos fuentes: el catálogo de productos, consultado por búsqueda semántica, y los datos del propio cliente (saldo de la tarjeta e historial de pedidos).
 
-Este repositorio contiene un **MVP (Producto Mínimo Viable)** de un asistente virtual inteligente diseñado para un escenario bancario/retail (inspirado en Davivienda).
+Los datos son ficticios: dos clientes y un catálogo pequeño definidos en el notebook.
 
-A diferencia de un chatbot estándar, este agente tiene **"Contexto Híbrido"**: es capaz de razonar simultáneamente con datos no estructurados (catálogo de productos) y datos estructurados privados (saldo del cliente, historial de pedidos), evitando alucinaciones financieras.
+## Cómo funciona
 
-## ¿Qué hace especial a este proyecto?
+1. **Catálogo:** las descripciones de los productos se convierten en vectores con `OpenAIEmbeddings` y se indexan en FAISS. Así, "una compu para jugar" encuentra el portátil gamer sin coincidencia exacta de palabras.
+2. **Datos del cliente:** `MockDatabase` simula el core bancario y el ERP (clientes, saldos y pedidos). Para cada pregunta se toman el saldo y los pedidos del cliente.
+3. **Respuesta:** los productos encontrados y los datos del cliente se pasan al modelo (`gpt-3.5-turbo`, temperatura 0) con LangChain, junto con la instrucción de comparar el precio con el saldo antes de recomendar una compra.
 
-La mayoría de los RAGs (Retrieval-Augmented Generation) solo buscan texto en documentos PDF. Este agente va un paso más allá integrando **Lógica de Negocio Transaccional**:
+## Escenarios de prueba
 
-1.  **Guardián Financiero:** Antes de recomendar una compra, el agente cruza el precio del producto (obtenido por búsqueda semántica) contra el `saldo_disponible` del usuario (obtenido de la DB transaccional).
-2.  **Búsqueda Semántica (FAISS):** Puedes pedir "una compu para jugar" y el agente entenderá que buscas la *ASUS ROG*, sin necesidad de coincidencia exacta de palabras.
-3.  **Rastreo Inteligente:** Conecta con el historial de pedidos para responder preguntas de post-venta ("¿Dónde está mi mouse?") sin inventar datos.
+El notebook ejecuta tres casos:
 
-## Stack Tecnológico
+| Escenario | Pregunta | Qué se espera |
+| --- | --- | --- |
+| Posventa | "¿Qué ha pasado con el mouse que compré?" | Responde con el estado del pedido del cliente. |
+| Validación de saldo | "Quiero comprar el MacBook Air, ¿me alcanza el cupo de mi tarjeta?" | El precio ($5,2 M) supera el saldo ($5,0 M): no recomienda la compra y sugiere financiación. |
+| Venta cruzada | "Busco un monitor bueno para trabajar, ¿qué me recomiendas?" | Encuentra el monitor y sugiere el mouse como complemento (campo `sugeridos` del catálogo). |
 
-He construido esto manteniendo las dependencias ligeras pero potentes:
+## Límites
 
-* **Orquestación:** [LangChain](https://python.langchain.com/) (Core LCEL).
-* **Cerebro (LLM):** OpenAI GPT-3.5 Turbo.
-* **Memoria Vectorial:** FAISS (Facebook AI Similarity Search) para el catálogo de productos.
-* **Datos:** Pandas & Python Dicts (simulando una SQL Database).
+- **La validación del saldo la hace el modelo, no el código:** el precio y el saldo van en el prompt y el modelo los compara, así que no es una regla garantizada; en producción la comparación debería hacerse en código antes de llamar al modelo.
+- **Sin memoria de conversación:** cada pregunta se responde por separado.
+- **Sin acciones:** el agente recomienda, pero no ejecuta compras ni consulta sistemas reales.
+- **Datos en memoria:** el catálogo y los clientes viven en el notebook; no hay base de datos ni API.
+- **Sin evaluación sistemática:** solo se comprueban los tres escenarios.
 
-## Escenarios de Prueba (Demos incluidos)
+## Cómo ejecutarlo
 
-El notebook ejecuta automáticamente 3 casos de uso que demuestran la flexibilidad del agente:
+1. Instalar las dependencias (Python 3.10+): `pip install -r requirements.txt`.
+2. Poner una clave propia de OpenAI en `OPENAI_API_KEY`, en la primera celda del notebook.
+3. Abrir `ecomerce.ipynb` y ejecutar todas las celdas: crea los datos, indexa el catálogo y corre los escenarios.
 
-| Escenario | Descripción | Lo que pasa "bajo el capó" |
-| :--- | :--- | :--- |
-| **1. Post-Venta** | *"¿Qué pasó con mi mouse?"* | El agente ignora el catálogo y hace una query directa al historial de pedidos del `user123`. |
-| **2. Validación de Crédito** | *"Quiero la Mac, ¿me alcanza?"* | Recupera el precio ($5.2M), mira el saldo ($5.0M) y **deniega la compra** amablemente, sugiriendo financiación. |
-| **3. Venta Cruzada** | *"Busco monitor para trabajo"* | Encuentra el monitor Samsung y sugiere el Mouse Logitech como complemento lógico. |
+## Tecnologías
 
-## Cómo correrlo localmente
-
-1.  **Clona el repositorio**
-    Descarga el proyecto o clona el repositorio en tu máquina local:
-    ```bash
-    git clone [https://github.com/javiermorenof7/javiermorenof7.git)
-    cd davivienda-agent-test
-    ```
-
-2.  **Instala las dependencias**
-    Asegúrate de tener Python 3.10+ instalado. Ejecuta el archivo de requerimientos:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3.  **Configura la API Key**
-    Abre el archivo `Davivienda_Ecommerce_Bot.ipynb` (o el script `.py`) y busca la celda de configuración.
-    
-    > **Nota para el Evaluador:** He dejado mi API Key configurada  (unicamente en el archivo ZIP)
-    
-    ```python
-    import os
-    # # OJO: no se adjunta la Key la key de seja en el archivo que se adjunta a la prueba
-    os.environ["OPENAI_API_KEY"] = "sk-(TU-API-KEY)"
-    ```
-
-4.  **Ejecuta el Agente**
-    * Si usas **Jupyter/Colab**: Corre las celdas en orden ("Run All").
-    * Si usas **Terminal**: Ejecuta `python main.py`.
-    
-    El script inicializará la base de datos simulada (Usuarios/Pedidos), indexará los vectores de productos y ejecutará los escenarios de prueba automáticamente.
-
-## Estructura del Código
-
-* `MockDatabase`: Una clase que simula tu Core Bancario y ERP. Aquí viven los usuarios, saldos y el stock.
-* `DaviviendaAgent`: La clase principal.
-    * `_build_vector_store()`: Convierte descripciones de texto en vectores matemáticos.
-    * `responder()`: El pipeline principal que inyecta los datos en el Prompt del LLM.
-
-## Próximos Pasos (Roadmap)
-
-Si quisiera llevar esto a producción, esto es lo que falta:
-
-- [ ] Reemplazar la `MockDatabase` por conexiones reales a SQL/API Rest.
-- [ ] Agregar memoria conversacional (para que recuerde lo que dijimos hace 2 mensajes).
-- [ ] Implementar *Tools* de LangChain para que el agente pueda ejecutar la compra real (POST request), no solo decir que puede hacerlo.
-
----
-*Hecho con ❤️ y Python.*
+Python, LangChain, OpenAI (`gpt-3.5-turbo` y embeddings), FAISS y Pandas.

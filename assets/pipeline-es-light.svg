@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 320" width="880" height="320" role="img" aria-labelledby="t d">
-<title id="t">Javier Moreno, ingeniero de datos</title>
+<title id="t">Francisco Javier Garcia Moreno, ingeniero de datos</title>
 <desc id="d">Un pipeline de datos: los ficheros llegan al almacenamiento, pasan por las capas bronce, plata y oro, y alimentan tableros y modelos.</desc>
 <style>
 text{font-family:'Avenir Next', 'Segoe UI Variable Display', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;fill:#1F2933}
-.h{font-size:60px;font-weight:700;letter-spacing:-1.5px}
+.h{font-size:44px;font-weight:700;letter-spacing:-1px}
 .s{font-size:21px;font-weight:500}
 .n{font-size:16px;font-weight:600}
 .m{font-size:13px;fill:#5B6775}
@@ -12,8 +12,8 @@ text{font-family:'Avenir Next', 'Segoe UI Variable Display', 'Segoe UI', 'Helvet
 @keyframes f{to{stroke-dashoffset:-18}}
 @media (prefers-reduced-motion:reduce){.f{animation:none}}
 </style>
-<text x="40" y="76" class="h">Javier Moreno</text>
-<text x="42" y="116" class="s">Ingeniero de datos. Construyo pipelines en Google Cloud,</text>
+<text x="40" y="76" class="h">Francisco Javier Garcia Moreno</text>
+<text x="42" y="116" class="s">Ingeniero de datos. Construyo pipelines en GCP, AWS y Azure,</text>
 <text x="42" y="144" class="s">del fichero en crudo al tablero y al modelo.</text>
 <path class="e" d="M85 236H225M255 236H395M425 236H565M595 236C640 236 640 196 689 196M595 236C640 236 640 276 689 276"/>
 <path class="f" d="M85 236H225M255 236H395M425 236H565M595 236C640 236 640 196 689 196M595 236C640 236 640 276 689 276"/>
