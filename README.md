@@ -15,7 +15,7 @@ Behind every good decision there is a piece of data someone trusted. My job is t
 
 ## Projects
 
-Each folder in this repository is a case I worked through end to end. The data in all of them is fictional.
+Each folder in this repository is a case I worked through end to end. Six of them process real public data (public health surveillance, interest rates, retail sales, absenteeism and GDP), with the source and license in their README; the other four use fictional data.
 
 ### Pipelines on Google Cloud
 

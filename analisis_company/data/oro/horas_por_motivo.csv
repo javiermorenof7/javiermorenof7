@@ -1,0 +1,28 @@
+codigo_motivo,nombre_motivo,grupo_motivo,ausencias,horas_ausencia
+13,Sistema osteomuscular,Enfermedad (CIE-10),55,842
+19,Lesiones y envenenamientos,Enfermedad (CIE-10),40,729
+23,Consulta médica,Otro,149,424
+28,Consulta odontológica,Otro,112,335
+11,Sistema digestivo,Enfermedad (CIE-10),26,297
+22,Seguimiento de paciente,Otro,38,293
+10,Sistema respiratorio,Enfermedad (CIE-10),25,276
+26,Ausencia injustificada,Otro,33,240
+18,Síntomas no clasificados,Enfermedad (CIE-10),21,217
+12,Piel,Enfermedad (CIE-10),8,187
+1,Enfermedades infecciosas y parasitarias,Enfermedad (CIE-10),16,182
+6,Sistema nervioso,Enfermedad (CIE-10),8,171
+9,Sistema circulatorio,Enfermedad (CIE-10),4,168
+14,Sistema genitourinario,Enfermedad (CIE-10),19,167
+27,Fisioterapia,Otro,68,157
+7,Ojo,Enfermedad (CIE-10),15,150
+25,Examen de laboratorio,Otro,31,108
+21,Factores que influyen en la salud,Enfermedad (CIE-10),6,35
+8,Oído,Enfermedad (CIE-10),6,32
+2,Tumores,Enfermedad (CIE-10),1,24
+24,Donación de sangre,Otro,3,24
+5,Trastornos mentales,Enfermedad (CIE-10),3,19
+15,Embarazo y parto,Enfermedad (CIE-10),2,16
+4,Enfermedades endocrinas y metabólicas,Enfermedad (CIE-10),2,9
+17,Malformaciones congénitas,Enfermedad (CIE-10),1,8
+3,Enfermedades de la sangre,Enfermedad (CIE-10),1,8
+16,Afecciones perinatales,Enfermedad (CIE-10),3,6

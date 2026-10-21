@@ -1,0 +1,29 @@
+codigo_motivo,nombre_motivo,grupo_motivo
+1,Enfermedades infecciosas y parasitarias,Enfermedad (CIE-10)
+2,Tumores,Enfermedad (CIE-10)
+3,Enfermedades de la sangre,Enfermedad (CIE-10)
+4,Enfermedades endocrinas y metabólicas,Enfermedad (CIE-10)
+5,Trastornos mentales,Enfermedad (CIE-10)
+6,Sistema nervioso,Enfermedad (CIE-10)
+7,Ojo,Enfermedad (CIE-10)
+8,Oído,Enfermedad (CIE-10)
+9,Sistema circulatorio,Enfermedad (CIE-10)
+10,Sistema respiratorio,Enfermedad (CIE-10)
+11,Sistema digestivo,Enfermedad (CIE-10)
+12,Piel,Enfermedad (CIE-10)
+13,Sistema osteomuscular,Enfermedad (CIE-10)
+14,Sistema genitourinario,Enfermedad (CIE-10)
+15,Embarazo y parto,Enfermedad (CIE-10)
+16,Afecciones perinatales,Enfermedad (CIE-10)
+17,Malformaciones congénitas,Enfermedad (CIE-10)
+18,Síntomas no clasificados,Enfermedad (CIE-10)
+19,Lesiones y envenenamientos,Enfermedad (CIE-10)
+20,Causas externas,Enfermedad (CIE-10)
+21,Factores que influyen en la salud,Enfermedad (CIE-10)
+22,Seguimiento de paciente,Otro
+23,Consulta médica,Otro
+24,Donación de sangre,Otro
+25,Examen de laboratorio,Otro
+26,Ausencia injustificada,Otro
+27,Fisioterapia,Otro
+28,Consulta odontológica,Otro

@@ -1,0 +1,192 @@
+codigo_pais,nombre_pais,region,grupo_ingreso,anio,pib_per_capita_usd
+MCO,Monaco,Europa y Asia central,High income,2024,288001.57
+LIE,Liechtenstein,Europa y Asia central,High income,2024,220167.23
+LUX,Luxembourg,Europa y Asia central,High income,2025,147252.18
+BMU,Bermuda,América del Norte,High income,2024,142250.43
+IRL,Ireland,Europa y Asia central,High income,2025,131592.46
+CHE,Switzerland,Europa y Asia central,High income,2025,114769.01
+CYM,Cayman Islands,América Latina y el Caribe,High income,2024,104292.9
+SGP,Singapore,Asia oriental y el Pacífico,High income,2025,98813.98
+ISL,Iceland,Europa y Asia central,High income,2025,98323.48
+NOR,Norway,Europa y Asia central,High income,2025,94594.19
+USA,United States,América del Norte,High income,2025,90026.52
+IMN,Isle of Man,Europa y Asia central,High income,2023,90015.21
+DNK,Denmark,Europa y Asia central,High income,2025,76970.15
+MAC,"Macao SAR, China",Asia oriental y el Pacífico,High income,2025,75901.75
+CHI,Channel Islands,Europa y Asia central,High income,2023,74585.52
+FRO,Faroe Islands,Europa y Asia central,High income,2024,74175.28
+NLD,Netherlands,Europa y Asia central,High income,2025,73683.92
+AUS,Australia,Asia oriental y el Pacífico,High income,2025,65129.72
+SWE,Sweden,Europa y Asia central,High income,2025,63133.21
+AUT,Austria,Europa y Asia central,High income,2025,62930.04
+BEL,Belgium,Europa y Asia central,High income,2025,60750.27
+DEU,Germany,Europa y Asia central,High income,2025,60496.44
+SMR,San Marino,Europa y Asia central,High income,2023,59871.33
+GRL,Greenland,Europa y Asia central,High income,2023,58498.97
+GBR,United Kingdom,Europa y Asia central,High income,2025,57601.96
+HKG,"Hong Kong SAR, China",Asia oriental y el Pacífico,High income,2025,56983.07
+FIN,Finland,Europa y Asia central,High income,2025,56148.58
+CAN,Canada,América del Norte,High income,2025,55697.66
+AND,Andorra,Europa y Asia central,High income,2025,54291.5
+NZL,New Zealand,Asia oriental y el Pacífico,High income,2025,49591.04
+FRA,France,Europa y Asia central,High income,2025,48985.73
+VIR,Virgin Islands (U.S.),América Latina y el Caribe,High income,2022,44320.91
+ITA,Italy,Europa y Asia central,High income,2025,43308.64
+SXM,Sint Maarten (Dutch part),América Latina y el Caribe,High income,2025,42978.13
+GUM,Guam,Asia oriental y el Pacífico,High income,2022,41833.15
+CYP,Cyprus,Europa y Asia central,High income,2025,41783.09
+PRI,Puerto Rico (US),América Latina y el Caribe,High income,2025,40620.15
+BHS,"Bahamas, The",América Latina y el Caribe,High income,2024,39455.45
+ESP,Spain,Europa y Asia central,High income,2025,38627.25
+ABW,Aruba,América Latina y el Caribe,High income,2024,38590.57
+TCA,Turks and Caicos Islands,América Latina y el Caribe,High income,2024,37506.78
+SVN,Slovenia,Europa y Asia central,High income,2025,37376.22
+KOR,"Korea, Rep.",Asia oriental y el Pacífico,High income,2025,36226.97
+JPN,Japan,Asia oriental y el Pacífico,High income,2025,35951.04
+CZE,Czechia,Europa y Asia central,High income,2025,35917.27
+EST,Estonia,Europa y Asia central,High income,2025,34417.63
+LTU,Lithuania,Europa y Asia central,High income,2025,32958.67
+GUY,Guyana,América Latina y el Caribe,High income,2025,32413.79
+BRN,Brunei Darussalam,Asia oriental y el Pacífico,High income,2025,32234.64
+PRT,Portugal,Europa y Asia central,High income,2025,32081.81
+NCL,New Caledonia,Asia oriental y el Pacífico,High income,2024,29213.19
+SVK,Slovak Republic,Europa y Asia central,High income,2025,28543.67
+POL,Poland,Europa y Asia central,High income,2025,28419.58
+BRB,Barbados,América Latina y el Caribe,High income,2025,28364.82
+HRV,Croatia,Europa y Asia central,High income,2025,27103.91
+GRC,Greece,Europa y Asia central,High income,2025,26948.01
+LVA,Latvia,Europa y Asia central,High income,2025,26311.97
+HUN,Hungary,Europa y Asia central,High income,2025,25907.47
+KNA,St. Kitts and Nevis,América Latina y el Caribe,High income,2025,25223.03
+URY,Uruguay,América Latina y el Caribe,High income,2025,25215.82
+ATG,Antigua and Barbuda,América Latina y el Caribe,High income,2025,24819.25
+MNP,Northern Mariana Islands,Asia oriental y el Pacífico,High income,2022,23785.75
+CUW,Curacao,América Latina y el Caribe,High income,2024,22832.9
+ROU,Romania,Europa y Asia central,High income,2025,22537.95
+PYF,French Polynesia,Asia oriental y el Pacífico,High income,2024,22439.88
+MAF,St. Martin (French part),América Latina y el Caribe,High income,2021,21668.38
+BGR,Bulgaria,Europa y Asia central,High income,2025,20328.17
+CRI,Costa Rica,América Latina y el Caribe,High income,2025,19970.1
+PAN,Panama,América Latina y el Caribe,High income,2025,19789.73
+PLW,Palau,Asia oriental y el Pacífico,High income,2025,19532.36
+SYC,Seychelles,África subsahariana,High income,2025,19449.38
+TTO,Trinidad and Tobago,América Latina y el Caribe,High income,2025,18967.27
+TUR,Turkiye,Europa y Asia central,Upper middle income,2025,18599.44
+ASM,American Samoa,Asia oriental y el Pacífico,High income,2022,18017.46
+CHL,Chile,América Latina y el Caribe,High income,2025,17994.59
+RUS,Russian Federation,Europa y Asia central,High income,2025,17546.61
+SRB,Serbia,Europa y Asia central,Upper middle income,2025,15262.05
+ARG,Argentina,América Latina y el Caribe,Upper middle income,2025,14898.09
+MNE,Montenegro,Europa y Asia central,Upper middle income,2025,14816.84
+LCA,St. Lucia,América Latina y el Caribe,Upper middle income,2025,14745.82
+KAZ,Kazakhstan,Europa y Asia central,Upper middle income,2025,14692.13
+NRU,Naoero,Asia oriental y el Pacífico,High income,2025,14639.5
+MDV,Maldives,Asia meridional,Upper middle income,2025,14614.72
+MEX,Mexico,América Latina y el Caribe,Upper middle income,2025,13889.23
+CHN,China,Asia oriental y el Pacífico,Upper middle income,2025,13861.97
+MYS,Malaysia,Asia oriental y el Pacífico,Upper middle income,2025,13124.56
+ALB,Albania,Europa y Asia central,Upper middle income,2025,12998.15
+MUS,Mauritius,África subsahariana,Upper middle income,2025,12991.29
+VCT,St. Vincent and the Grenadines,América Latina y el Caribe,Upper middle income,2025,12561.77
+GRD,Grenada,América Latina y el Caribe,Upper middle income,2025,12106.88
+DOM,Dominican Republic,América Latina y el Caribe,Upper middle income,2025,11059.21
+DMA,Dominica,América Latina y el Caribe,Upper middle income,2025,10989.04
+BRA,Brazil,América Latina y el Caribe,Upper middle income,2025,10713.29
+MKD,North Macedonia,Europa y Asia central,Upper middle income,2025,10489.93
+BIH,Bosnia and Herzegovina,Europa y Asia central,Upper middle income,2025,10381.85
+BLR,Belarus,Europa y Asia central,Upper middle income,2025,10279.25
+GEO,Georgia,Europa y Asia central,Upper middle income,2025,9691.53
+PER,Peru,América Latina y el Caribe,Upper middle income,2025,9684.41
+CUB,Cuba,América Latina y el Caribe,Upper middle income,2020,9605.28
+ARM,Armenia,Europa y Asia central,Upper middle income,2025,9474.02
+MDA,Moldova,Europa y Asia central,Upper middle income,2025,8621.72
+COL,Colombia,América Latina y el Caribe,Upper middle income,2025,8561.62
+MHL,Marshall Islands,Asia oriental y el Pacífico,Upper middle income,2025,8489.06
+GAB,Gabon,África subsahariana,Upper middle income,2025,8263.03
+THA,Thailand,Asia oriental y el Pacífico,Upper middle income,2025,8056.56
+JAM,Jamaica,América Latina y el Caribe,Upper middle income,2025,8002.92
+XKX,Kosovo,Europa y Asia central,Upper middle income,2025,7899.42
+BLZ,Belize,América Latina y el Caribe,Upper middle income,2025,7865.48
+BWA,Botswana,África subsahariana,Upper middle income,2025,7778.12
+AZE,Azerbaijan,Europa y Asia central,Upper middle income,2025,7410.72
+ECU,Ecuador,América Latina y el Caribe,Upper middle income,2025,7125.28
+MNG,Mongolia,Asia oriental y el Pacífico,Upper middle income,2025,7108.23
+SUR,Suriname,América Latina y el Caribe,Upper middle income,2025,7069.87
+PRY,Paraguay,América Latina y el Caribe,Upper middle income,2025,7026.62
+FJI,Fiji,Asia oriental y el Pacífico,Upper middle income,2025,6642.0
+GNQ,Equatorial Guinea,África subsahariana,Upper middle income,2025,6615.25
+GTM,Guatemala,América Latina y el Caribe,Upper middle income,2025,6598.18
+ZAF,South Africa,África subsahariana,Upper middle income,2025,6597.71
+TON,Tonga,Asia oriental y el Pacífico,Upper middle income,2025,6547.19
+TKM,Turkmenistan,Europa y Asia central,Upper middle income,2025,6540.18
+TUV,Tuvalu,Asia oriental y el Pacífico,Upper middle income,2025,6041.45
+WSM,Samoa,Asia oriental y el Pacífico,Upper middle income,2025,5872.78
+UKR,Ukraine,Europa y Asia central,Upper middle income,2025,5865.88
+CPV,Cabo Verde,África subsahariana,Upper middle income,2025,5796.47
+SLV,El Salvador,América Latina y el Caribe,Upper middle income,2025,5766.73
+BOL,Bolivia,América Latina y el Caribe,Lower middle income,2025,5147.81
+VNM,Viet Nam,Asia oriental y el Pacífico,Upper middle income,2025,5065.99
+IDN,Indonesia,Asia oriental y el Pacífico,Upper middle income,2025,5059.63
+LKA,Sri Lanka,Asia meridional,Upper middle income,2025,5002.08
+NAM,Namibia,África subsahariana,Lower middle income,2025,4875.93
+BTN,Bhutan,Asia meridional,Lower middle income,2025,4492.78
+FSM,"Micronesia, Fed. Sts.",Asia oriental y el Pacífico,Upper middle income,2025,4414.01
+PHL,Philippines,Asia oriental y el Pacífico,Upper middle income,2025,4170.72
+SWZ,Eswatini,África subsahariana,Lower middle income,2025,4108.25
+STP,Sao Tome and Principe,África subsahariana,Lower middle income,2025,4084.4
+VUT,Vanuatu,Asia oriental y el Pacífico,Lower middle income,2025,4038.74
+UZB,Uzbekistan,Europa y Asia central,Lower middle income,2025,3968.27
+HND,Honduras,América Latina y el Caribe,Lower middle income,2025,3598.21
+VEN,"Venezuela, RB",América Latina y el Caribe,Lower middle income,2025,3494.81
+GHA,Ghana,África subsahariana,Lower middle income,2025,3257.16
+NIC,Nicaragua,América Latina y el Caribe,Lower middle income,2025,3173.34
+AGO,Angola,África subsahariana,Lower middle income,2025,3129.48
+KGZ,Kyrgyz Republic,Europa y Asia central,Lower middle income,2025,3080.97
+CIV,Cote d'Ivoire,África subsahariana,Lower middle income,2025,3050.1
+ZWE,Zimbabwe,África subsahariana,Lower middle income,2025,3021.43
+PNG,Papua New Guinea,Asia oriental y el Pacífico,Lower middle income,2025,3019.53
+KHM,Cambodia,Asia oriental y el Pacífico,Lower middle income,2025,2872.43
+IND,India,Asia meridional,Lower middle income,2025,2702.48
+HTI,Haiti,América Latina y el Caribe,Lower middle income,2025,2694.19
+BGD,Bangladesh,Asia meridional,Lower middle income,2025,2597.34
+KIR,Kiribati,Asia oriental y el Pacífico,Lower middle income,2025,2558.67
+COG,"Congo, Rep.",África subsahariana,Lower middle income,2025,2514.73
+KEN,Kenya,África subsahariana,Lower middle income,2025,2362.86
+LAO,Lao PDR,Asia oriental y el Pacífico,Lower middle income,2025,2324.76
+MRT,Mauritania,África subsahariana,Lower middle income,2025,2197.51
+SLB,Solomon Islands,Asia oriental y el Pacífico,Lower middle income,2025,2086.19
+COM,Comoros,África subsahariana,Lower middle income,2025,2055.76
+CMR,Cameroon,África subsahariana,Lower middle income,2025,1972.38
+SEN,Senegal,África subsahariana,Lower middle income,2025,1954.71
+GIN,Guinea,África subsahariana,Lower middle income,2025,1877.25
+BEN,Benin,África subsahariana,Lower middle income,2025,1658.27
+TJK,Tajikistan,Europa y Asia central,Lower middle income,2025,1637.25
+NPL,Nepal,Asia meridional,Lower middle income,2025,1535.88
+MMR,Myanmar,Asia oriental y el Pacífico,Lower middle income,2025,1488.88
+TGO,Togo,África subsahariana,Lower middle income,2025,1383.9
+TLS,Timor-Leste,Asia oriental y el Pacífico,Lower middle income,2025,1340.96
+TZA,Tanzania,África subsahariana,Lower middle income,2025,1318.82
+ZMB,Zambia,África subsahariana,Lower middle income,2025,1317.88
+NGA,Nigeria,África subsahariana,Lower middle income,2025,1224.25
+UGA,Uganda,África subsahariana,Low income,2025,1206.3
+MLI,Mali,África subsahariana,Low income,2025,1193.28
+SDN,Sudan,África subsahariana,Low income,2025,1164.54
+BFA,Burkina Faso,África subsahariana,Low income,2025,1147.57
+GNB,Guinea-Bissau,África subsahariana,Low income,2025,1123.77
+RWA,Rwanda,África subsahariana,Low income,2025,1123.74
+LSO,Lesotho,África subsahariana,Lower middle income,2025,1088.96
+SSD,South Sudan,África subsahariana,Low income,2015,1080.15
+TCD,Chad,África subsahariana,Low income,2025,1022.34
+ETH,Ethiopia,África subsahariana,Low income,2025,932.73
+GMB,"Gambia, The",África subsahariana,Low income,2025,919.06
+LBR,Liberia,África subsahariana,Low income,2025,915.33
+SLE,Sierra Leone,África subsahariana,Low income,2025,846.3
+COD,"Congo, Dem. Rep.",África subsahariana,Low income,2025,806.78
+NER,Niger,África subsahariana,Low income,2025,775.35
+ERI,Eritrea,África subsahariana,Low income,2011,688.68
+MWI,Malawi,África subsahariana,Low income,2025,671.51
+SOM,"Somalia, Fed. Rep.",África subsahariana,Low income,2025,661.17
+MOZ,Mozambique,África subsahariana,Low income,2025,626.91
+MDG,Madagascar,África subsahariana,Low income,2025,599.27
+CAF,Central African Republic,África subsahariana,Low income,2025,556.13
+BDI,Burundi,África subsahariana,Low income,2025,233.82

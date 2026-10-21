@@ -15,7 +15,7 @@ Detrás de cada buena decisión hay un dato en el que alguien confió. Mi trabaj
 
 ## Proyectos
 
-Cada carpeta de este repositorio es un caso que resolví de principio a fin. Los datos de todos son ficticios.
+Cada carpeta de este repositorio es un caso que resolví de principio a fin. Seis procesan datos públicos reales (vigilancia en salud pública, tasas de interés, ventas minoristas, ausentismo y PIB), con la fuente y la licencia en su README; los otros cuatro usan datos ficticios.
 
 ### Pipelines en Google Cloud
 

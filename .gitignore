@@ -28,3 +28,5 @@ riesgo_credito/data/raw/
 riesgo_credito/data/plata/
 area_ventas/data/raw/
 area_ventas/data/plata/
+analisis_company/data/raw/
+limpieza_trasformacion/data/raw/

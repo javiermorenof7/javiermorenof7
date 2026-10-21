@@ -40,3 +40,21 @@ Una vez obtenida esta tabla podemos realizar los siguientes análisis
 > https://public.tableau.com/app/profile/francisco2414/viz/Company_16655277589250/Dashboard1
 
 ![Kitten](capturas/02.png)
+# Datos reales: Absenteeism at work
+
+Para contrastar el caso con ausencias reales, el proyecto procesa [Absenteeism at work](https://archive.ics.uci.edu/dataset/445/absenteeism+at+work) del UCI Machine Learning Repository: 740 registros de ausencias en una empresa de mensajería de Brasil, entre julio de 2007 y julio de 2010, de 36 empleados anonimizados con un número. Licencia [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es).
+
+- `procesamiento/ingesta_ausentismo.py` (bronce): baja el conjunto y deja un archivo de control con las filas y la huella SHA-256. Si ya está en bronce, no vuelve a descargar.
+- `procesamiento/capas_ausentismo.py` (plata y oro): traduce las columnas, aparta los registros que no son ausencias y arma un modelo dimensional: `dim_empleado`, `dim_motivo` (los 21 capítulos de la CIE-10 y 7 motivos más, como consulta médica o donación de sangre) y `hecho_ausencia`.
+
+| Resultado | Registros |
+| --- | ---: |
+| Aceptada | 696 |
+| Registro sin ausencia (motivo 0 y 0 horas) | 43 |
+| Ausencia sin horas | 1 |
+
+Hay 34 registros idénticos a otro. Como la fuente no trae la fecha exacta, solo el mes y el día de la semana, no se puede probar que sean la misma ausencia: se conservan y se dejan contados en `resumen_capas.csv`.
+
+Algunos resultados: 5.124 horas perdidas entre 33 empleados. Las enfermedades osteomusculares (842 horas) y las lesiones (729) son las que más horas quitan; la consulta médica es el motivo más frecuente (149 ausencias). El lunes se pierden 1.489 horas, casi el triple que el jueves (553).
+
+Los resultados están en `data/oro/`: las dimensiones, el hecho y las horas por motivo, mes y día de la semana. Para correrlo: `python analisis_company/procesamiento/ingesta_ausentismo.py` y después `python analisis_company/procesamiento/capas_ausentismo.py`.
