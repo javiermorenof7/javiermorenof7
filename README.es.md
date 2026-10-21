@@ -7,7 +7,9 @@
 
 [![CI](https://github.com/javiermorenof7/javiermorenof7/actions/workflows/ci.yml/badge.svg)](https://github.com/javiermorenof7/javiermorenof7/actions/workflows/ci.yml)
 
-Ingeniero de datos con más de 5 años diseñando pipelines ETL/ELT y arquitecturas medallón en GCP, AWS y Azure para los sectores financiero, retail, logístico y educativo. Llevo los datos desde la ingesta hasta el análisis y los modelos en producción, con pruebas automáticas y despliegue controlado.
+**Datos que llegan a tiempo, limpios y listos para decidir.**
+
+Detrás de cada buena decisión hay un dato en el que alguien confió. Mi trabajo es que ese dato merezca esa confianza. Los datos no fallan por falta de herramientas: fallan porque nadie diseñó el camino. Yo diseño ese camino. Tomo información dispersa, la ordeno, la valido y la dejo lista para que el negocio decida sin dudar, en pipelines que se operan solos, se prueban solos y no esconden errores.
 
 [Portafolio](https://javiermorenof7.github.io/cv_portafolio/) | [LinkedIn](https://www.linkedin.com/in/francisco-javier-garcia-moreno)
 

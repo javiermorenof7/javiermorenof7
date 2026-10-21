@@ -177,3 +177,17 @@ https://raw.githubusercontent.com/javiermorenof7/javiermorenof7/main/analisis_pr
 # Excel
 
 https://github.com/javiermorenof7/javiermorenof7/blob/main/analisis_probabilistico_tiendas/data/test_challengue_prob.xlsx?raw=true
+# Datos reales: ¿qué recomendar con canastas de compra reales?
+
+La misma pregunta (¿es el producto A una buena recomendación para el producto B?) se responde también con canastas reales: las 39.516 facturas de venta de [Online Retail II](https://archive.ics.uci.edu/dataset/502/online+retail+ii) (UCI, CC BY 4.0), un minorista en línea del Reino Unido, 2009-2011. El script usa la capa plata que deja el proyecto [area_ventas](../area_ventas), así que hay que correr antes su ingesta y sus capas.
+
+`reglas_asociacion.py` toma los 706 productos que aparecen en al menos el 1 % de las facturas y evalúa los 495.638 pares A → B posibles:
+
+- **Soporte:** en qué parte de las facturas aparecen A y B juntos.
+- **Confianza P(B|A):** de las facturas con A, en cuántas también está B.
+- **Lift:** cuántas veces sube la probabilidad de B cuando se compra A.
+- **Confianza mínima al 95 %:** límite inferior del intervalo de Wilson de P(B|A), para no premiar pares con pocas facturas.
+
+Un par es buena recomendación si, con el 95 % de confianza, al menos 1 de cada 5 compradores de A también compra B y si comprar A al menos duplica la probabilidad de comprar B (lift de 2 o más). Lo cumplen 5.762 pares. Los más fuertes son productos de la misma colección: quien compra la estrella de madera navideña compra también el corazón de madera en el 70,6 % de las facturas (al menos el 66 % con el 95 % de confianza), 67 veces más de lo esperado.
+
+Los resultados están en `data/oro/`: `mejores_recomendaciones.csv` (los 30 pares con mayor lift) y `resumen.csv`.

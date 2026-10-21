@@ -23,7 +23,7 @@ print("Tabla de citas cargada exitosamente.")
 
 
 print("Cargando Divipola...")
-df_divipola = pd.read_excel('gs://javier-proyecto/Davipola_Municipios.xlsx')
+df_divipola = pd.read_csv('gs://javier-proyecto/DIVIPOLA_Municipios_clean.csv')
 
 job_config_divipola = bigquery.LoadJobConfig(write_disposition="WRITE_TRUNCATE")
 client.load_table_from_dataframe(df_divipola, table_divipola, job_config=job_config_divipola).result()

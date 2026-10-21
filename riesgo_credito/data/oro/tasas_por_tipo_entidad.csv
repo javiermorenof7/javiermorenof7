@@ -1,0 +1,426 @@
+anio,nombre_tipo_entidad,nombre_modalidad,tasa_ponderada
+2002,Compañía de financiamiento,CREDITOS COMERCIALES,22.08
+2002,Compañía de financiamiento,CREDITOS DE CONSUMO,26.52
+2002,Compañía de financiamiento,MICROCREDITOS,28.01
+2002,Compañía de financiamiento,OTRAS MODALIDADES DE CREDITO,29.99
+2002,Cooperativa financiera,CREDITOS COMERCIALES,28.2
+2002,Cooperativa financiera,CREDITOS DE CONSUMO,28.3
+2002,Cooperativa financiera,CREDITOS DE VIVIENDA,9.44
+2002,Establecimiento bancario,CERTIFICADOS AHORRO VLOR REAL (CAVR),6.25
+2002,Establecimiento bancario,CREDITOS COMERCIALES,10.9
+2002,Establecimiento bancario,CREDITOS DE CONSUMO,27.62
+2002,Establecimiento bancario,CREDITOS DE VIVIENDA,12.34
+2002,Establecimiento bancario,CREDITOS ESPECIALES,8.16
+2002,Establecimiento bancario,MICROCREDITOS,26.91
+2002,Establecimiento bancario,OTRAS MODALIDADES DE CREDITO,26.97
+2002,Institución oficial especial,CREDITOS COMERCIALES,7.61
+2003,Compañía de financiamiento,CREDITOS COMERCIALES,21.29
+2003,Compañía de financiamiento,CREDITOS DE CONSUMO,25.77
+2003,Compañía de financiamiento,CREDITOS ESPECIALES,12.77
+2003,Compañía de financiamiento,MICROCREDITOS,28.95
+2003,Compañía de financiamiento,OTRAS MODALIDADES DE CREDITO,29.6
+2003,Cooperativa financiera,CREDITOS COMERCIALES,26.75
+2003,Cooperativa financiera,CREDITOS DE CONSUMO,27.49
+2003,Establecimiento bancario,CERTIFICADOS AHORRO VLOR REAL (CAVR),5.82
+2003,Establecimiento bancario,CREDITOS COMERCIALES,10.92
+2003,Establecimiento bancario,CREDITOS DE CONSUMO,27.18
+2003,Establecimiento bancario,CREDITOS DE VIVIENDA,12.51
+2003,Establecimiento bancario,CREDITOS ESPECIALES,10.42
+2003,Establecimiento bancario,MICROCREDITOS,27.51
+2003,Establecimiento bancario,OTRAS MODALIDADES DE CREDITO,27.88
+2003,Institución oficial especial,CREDITOS COMERCIALES,11.55
+2004,Compañía de financiamiento,CREDITOS COMERCIALES,19.79
+2004,Compañía de financiamiento,CREDITOS DE CONSUMO,24.63
+2004,Compañía de financiamiento,CREDITOS ESPECIALES,6.27
+2004,Compañía de financiamiento,MICROCREDITOS,29.17
+2004,Compañía de financiamiento,OTRAS MODALIDADES DE CREDITO,29.35
+2004,Cooperativa financiera,CREDITOS COMERCIALES,24.36
+2004,Cooperativa financiera,CREDITOS DE CONSUMO,26.38
+2004,Cooperativa financiera,MICROCREDITOS,27.87
+2004,Establecimiento bancario,CERTIFICADOS AHORRO VLOR REAL (CAVR),6.72
+2004,Establecimiento bancario,CREDITOS COMERCIALES,11.14
+2004,Establecimiento bancario,CREDITOS DE CONSUMO,26.13
+2004,Establecimiento bancario,CREDITOS DE VIVIENDA,12.4
+2004,Establecimiento bancario,CREDITOS ESPECIALES,8.55
+2004,Establecimiento bancario,MICROCREDITOS,27.4
+2004,Establecimiento bancario,OTRAS MODALIDADES DE CREDITO,27.96
+2004,Institución oficial especial,CREDITOS COMERCIALES,11.01
+2005,Compañía de financiamiento,CREDITOS COMERCIALES,19.07
+2005,Compañía de financiamiento,CREDITOS DE CONSUMO,23.07
+2005,Compañía de financiamiento,MICROCREDITOS,27.37
+2005,Compañía de financiamiento,OTRAS MODALIDADES DE CREDITO,26.81
+2005,Cooperativa financiera,CREDITOS COMERCIALES,21.95
+2005,Cooperativa financiera,CREDITOS DE CONSUMO,23.92
+2005,Cooperativa financiera,MICROCREDITOS,27.56
+2005,Establecimiento bancario,CERTIFICADOS AHORRO VLOR REAL (CAVR),5.29
+2005,Establecimiento bancario,CREDITOS COMERCIALES,10.38
+2005,Establecimiento bancario,CREDITOS DE CONSUMO,24.19
+2005,Establecimiento bancario,CREDITOS DE VIVIENDA,12.25
+2005,Establecimiento bancario,CREDITOS ESPECIALES,7.95
+2005,Establecimiento bancario,MICROCREDITOS,25.8
+2005,Establecimiento bancario,OTRAS MODALIDADES DE CREDITO,25.71
+2005,Institución oficial especial,CREDITOS COMERCIALES,10.37
+2006,Compañía de financiamiento,CREDITOS COMERCIALES,17.1
+2006,Compañía de financiamiento,CREDITOS DE CONSUMO,19.92
+2006,Compañía de financiamiento,MICROCREDITOS,23.54
+2006,Compañía de financiamiento,OTRAS MODALIDADES DE CREDITO,23.13
+2006,Cooperativa financiera,CREDITOS COMERCIALES,18.77
+2006,Cooperativa financiera,CREDITOS DE CONSUMO,21.39
+2006,Cooperativa financiera,CREDITOS DE VIVIENDA,15.85
+2006,Cooperativa financiera,MICROCREDITOS,22.89
+2006,Establecimiento bancario,CERTIFICADOS AHORRO VLOR REAL (CAVR),4.71
+2006,Establecimiento bancario,CREDITOS COMERCIALES,9.71
+2006,Establecimiento bancario,CREDITOS DE CONSUMO,20.39
+2006,Establecimiento bancario,CREDITOS DE VIVIENDA,11.39
+2006,Establecimiento bancario,CREDITOS ESPECIALES,5.98
+2006,Establecimiento bancario,MICROCREDITOS,22.11
+2006,Establecimiento bancario,OTRAS MODALIDADES DE CREDITO,22.24
+2006,Institución oficial especial,CREDITOS COMERCIALES,11.5
+2007,Compañía de financiamiento,CREDITOS COMERCIALES,17.62
+2007,Compañía de financiamiento,CREDITOS DE CONSUMO,21.86
+2007,Compañía de financiamiento,CREDITOS DE VIVIENDA,17.88
+2007,Compañía de financiamiento,MICROCREDITOS,32.78
+2007,Compañía de financiamiento,OTRAS MODALIDADES DE CREDITO,26.86
+2007,Cooperativa financiera,CREDITOS COMERCIALES,17.5
+2007,Cooperativa financiera,CREDITOS DE CONSUMO,23.2
+2007,Cooperativa financiera,CREDITOS DE VIVIENDA,15.36
+2007,Cooperativa financiera,MICROCREDITOS,26.33
+2007,Establecimiento bancario,CERTIFICADOS AHORRO VLOR REAL (CAVR),4.47
+2007,Establecimiento bancario,CREDITOS COMERCIALES,12.95
+2007,Establecimiento bancario,CREDITOS DE CONSUMO,22.16
+2007,Establecimiento bancario,CREDITOS DE VIVIENDA,12.69
+2007,Establecimiento bancario,CREDITOS ESPECIALES,11.98
+2007,Establecimiento bancario,MICROCREDITOS,28.85
+2007,Establecimiento bancario,OTRAS MODALIDADES DE CREDITO,24.88
+2007,Institución oficial especial,CREDITOS COMERCIALES,12.34
+2008,Compañía de financiamiento,CREDITOS COMERCIALES,19.55
+2008,Compañía de financiamiento,CREDITOS DE CONSUMO,25.22
+2008,Compañía de financiamiento,CREDITOS DE VIVIENDA,17.97
+2008,Compañía de financiamiento,MICROCREDITOS,32.01
+2008,Compañía de financiamiento,OTRAS MODALIDADES DE CREDITO,32.02
+2008,Cooperativa financiera,CREDITOS COMERCIALES,18.77
+2008,Cooperativa financiera,CREDITOS DE CONSUMO,26.17
+2008,Cooperativa financiera,CREDITOS DE VIVIENDA,16.51
+2008,Cooperativa financiera,MICROCREDITOS,28.56
+2008,Establecimiento bancario,CERTIFICADOS AHORRO VLOR REAL (CAVR),4.51
+2008,Establecimiento bancario,CREDITOS COMERCIALES,15.11
+2008,Establecimiento bancario,CREDITOS DE CONSUMO,25.75
+2008,Establecimiento bancario,CREDITOS DE VIVIENDA,13.78
+2008,Establecimiento bancario,CREDITOS ESPECIALES,16.68
+2008,Establecimiento bancario,MICROCREDITOS,30.67
+2008,Establecimiento bancario,OTRAS MODALIDADES DE CREDITO,29.71
+2008,Institución oficial especial,CREDITOS COMERCIALES,12.53
+2009,Compañía de financiamiento,CREDITOS COMERCIALES,16.56
+2009,Compañía de financiamiento,CREDITOS DE CONSUMO,23.67
+2009,Compañía de financiamiento,CREDITOS DE VIVIENDA,17.0
+2009,Compañía de financiamiento,MICROCREDITOS,30.26
+2009,Compañía de financiamiento,OTRAS MODALIDADES DE CREDITO,28.29
+2009,Cooperativa financiera,CREDITOS COMERCIALES,14.64
+2009,Cooperativa financiera,CREDITOS DE CONSUMO,23.56
+2009,Cooperativa financiera,CREDITOS DE VIVIENDA,15.09
+2009,Cooperativa financiera,MICROCREDITOS,28.38
+2009,Establecimiento bancario,CERTIFICADOS AHORRO VLOR REAL (CAVR),4.5
+2009,Establecimiento bancario,CREDITOS COMERCIALES,11.42
+2009,Establecimiento bancario,CREDITOS DE CONSUMO,22.95
+2009,Establecimiento bancario,CREDITOS DE VIVIENDA,12.94
+2009,Establecimiento bancario,CREDITOS ESPECIALES,11.6
+2009,Establecimiento bancario,MICROCREDITOS,30.93
+2009,Establecimiento bancario,OTRAS MODALIDADES DE CREDITO,26.21
+2010,Compañía de financiamiento,CREDITOS COMERCIALES,12.78
+2010,Compañía de financiamiento,CREDITOS DE CONSUMO,19.45
+2010,Compañía de financiamiento,CREDITOS DE VIVIENDA,13.27
+2010,Compañía de financiamiento,MICROCREDITOS,28.63
+2010,Compañía de financiamiento,OTRAS MODALIDADES DE CREDITO,22.42
+2010,Cooperativa financiera,CREDITOS COMERCIALES,12.04
+2010,Cooperativa financiera,CREDITOS DE CONSUMO,19.61
+2010,Cooperativa financiera,CREDITOS DE VIVIENDA,13.52
+2010,Cooperativa financiera,MICROCREDITOS,23.42
+2010,Cooperativa financiera,OTRAS MODALIDADES DE CREDITO,19.07
+2010,Establecimiento bancario,CERTIFICADOS AHORRO VLOR REAL (CAVR),2.03
+2010,Establecimiento bancario,CREDITOS COMERCIALES,8.07
+2010,Establecimiento bancario,CREDITOS DE CONSUMO,17.82
+2010,Establecimiento bancario,CREDITOS DE VIVIENDA,11.85
+2010,Establecimiento bancario,CREDITOS ESPECIALES,9.11
+2010,Establecimiento bancario,MICROCREDITOS,31.1
+2010,Establecimiento bancario,OTRAS MODALIDADES DE CREDITO,21.19
+2010,Institución oficial especial,CREDITOS DE CONSUMO,13.76
+2010,Institución oficial especial,CREDITOS DE VIVIENDA,9.79
+2011,Compañía de financiamiento,CREDITOS COMERCIALES,11.9
+2011,Compañía de financiamiento,CREDITOS DE CONSUMO,19.24
+2011,Compañía de financiamiento,CREDITOS DE VIVIENDA,14.31
+2011,Compañía de financiamiento,CREDITOS ESPECIALES,13.16
+2011,Compañía de financiamiento,MICROCREDITOS,32.85
+2011,Compañía de financiamiento,OTRAS MODALIDADES DE CREDITO,26.31
+2011,Cooperativa financiera,CREDITOS COMERCIALES,12.96
+2011,Cooperativa financiera,CREDITOS DE CONSUMO,19.86
+2011,Cooperativa financiera,CREDITOS DE VIVIENDA,12.98
+2011,Cooperativa financiera,MICROCREDITOS,27.84
+2011,Cooperativa financiera,OTRAS MODALIDADES DE CREDITO,20.54
+2011,Establecimiento bancario,CERTIFICADOS AHORRO VLOR REAL (CAVR),1.46
+2011,Establecimiento bancario,CREDITOS COMERCIALES,8.87
+2011,Establecimiento bancario,CREDITOS DE CONSUMO,18.04
+2011,Establecimiento bancario,CREDITOS DE VIVIENDA,11.65
+2011,Establecimiento bancario,CREDITOS ESPECIALES,10.86
+2011,Establecimiento bancario,MICROCREDITOS,35.08
+2011,Establecimiento bancario,OTRAS MODALIDADES DE CREDITO,24.17
+2011,Institución oficial especial,CREDITOS DE CONSUMO,13.24
+2011,Institución oficial especial,CREDITOS DE VIVIENDA,10.43
+2012,Compañía de financiamiento,CREDITOS COMERCIALES,13.51
+2012,Compañía de financiamiento,CREDITOS DE CONSUMO,19.88
+2012,Compañía de financiamiento,CREDITOS DE VIVIENDA,12.55
+2012,Compañía de financiamiento,CREDITOS ESPECIALES,14.32
+2012,Compañía de financiamiento,MICROCREDITOS,37.22
+2012,Compañía de financiamiento,OTRAS MODALIDADES DE CREDITO,30.46
+2012,Cooperativa financiera,CREDITOS COMERCIALES,15.13
+2012,Cooperativa financiera,CREDITOS DE CONSUMO,21.32
+2012,Cooperativa financiera,CREDITOS DE VIVIENDA,13.78
+2012,Cooperativa financiera,MICROCREDITOS,30.39
+2012,Establecimiento bancario,CERTIFICADOS AHORRO VLOR REAL (CAVR),2.4
+2012,Establecimiento bancario,CREDITOS COMERCIALES,10.17
+2012,Establecimiento bancario,CREDITOS DE CONSUMO,19.11
+2012,Establecimiento bancario,CREDITOS DE VIVIENDA,11.65
+2012,Establecimiento bancario,CREDITOS ESPECIALES,12.54
+2012,Establecimiento bancario,MICROCREDITOS,34.88
+2012,Establecimiento bancario,OTRAS MODALIDADES DE CREDITO,25.74
+2012,Institución oficial especial,CREDITOS DE CONSUMO,12.78
+2012,Institución oficial especial,CREDITOS DE VIVIENDA,10.1
+2013,Compañía de financiamiento,CREDITOS A TRAVES DE LIBRANZA,15.89
+2013,Compañía de financiamiento,CREDITOS COMERCIALES,12.41
+2013,Compañía de financiamiento,CREDITOS DE CONSUMO,18.21
+2013,Compañía de financiamiento,CREDITOS DE VIVIENDA,11.82
+2013,Compañía de financiamiento,CREDITOS ESPECIALES,12.87
+2013,Compañía de financiamiento,MICROCREDITOS,39.85
+2013,Compañía de financiamiento,OTRAS MODALIDADES DE CREDITO,29.68
+2013,Cooperativa financiera,CREDITOS A TRAVES DE LIBRANZA,17.17
+2013,Cooperativa financiera,CREDITOS COMERCIALES,13.1
+2013,Cooperativa financiera,CREDITOS DE CONSUMO,18.9
+2013,Cooperativa financiera,CREDITOS DE VIVIENDA,12.16
+2013,Cooperativa financiera,MICROCREDITOS,29.56
+2013,Cooperativa financiera,OTRAS MODALIDADES DE CREDITO,24.89
+2013,Establecimiento bancario,CERTIFICADOS AHORRO VLOR REAL (CAVR),2.89
+2013,Establecimiento bancario,CREDITOS A TRAVES DE LIBRANZA,14.52
+2013,Establecimiento bancario,CREDITOS COMERCIALES,8.45
+2013,Establecimiento bancario,CREDITOS DE CONSUMO,17.82
+2013,Establecimiento bancario,CREDITOS DE VIVIENDA,10.28
+2013,Establecimiento bancario,CREDITOS ESPECIALES,9.7
+2013,Establecimiento bancario,MICROCREDITOS,34.09
+2013,Establecimiento bancario,OTRAS MODALIDADES DE CREDITO,25.21
+2013,Institución oficial especial,CREDITOS COMERCIALES,8.25
+2013,Institución oficial especial,CREDITOS DE CONSUMO,12.65
+2013,Institución oficial especial,CREDITOS DE VIVIENDA,9.12
+2014,Compañía de financiamiento,CREDITOS A TRAVES DE LIBRANZA,16.1
+2014,Compañía de financiamiento,CREDITOS COMERCIALES,12.06
+2014,Compañía de financiamiento,CREDITOS DE CONSUMO,17.62
+2014,Compañía de financiamiento,CREDITOS DE VIVIENDA,10.99
+2014,Compañía de financiamiento,CREDITOS ESPECIALES,11.81
+2014,Compañía de financiamiento,MICROCREDITOS,38.0
+2014,Compañía de financiamiento,OTRAS MODALIDADES DE CREDITO,28.73
+2014,Cooperativa financiera,CREDITOS A TRAVES DE LIBRANZA,16.43
+2014,Cooperativa financiera,CREDITOS COMERCIALES,13.21
+2014,Cooperativa financiera,CREDITOS DE CONSUMO,17.75
+2014,Cooperativa financiera,CREDITOS DE VIVIENDA,12.03
+2014,Cooperativa financiera,MICROCREDITOS,24.76
+2014,Cooperativa financiera,OTRAS MODALIDADES DE CREDITO,21.83
+2014,Establecimiento bancario,CREDITOS A TRAVES DE LIBRANZA,14.29
+2014,Establecimiento bancario,CREDITOS COMERCIALES,8.4
+2014,Establecimiento bancario,CREDITOS DE CONSUMO,17.25
+2014,Establecimiento bancario,CREDITOS DE VIVIENDA,10.12
+2014,Establecimiento bancario,CREDITOS ESPECIALES,9.91
+2014,Establecimiento bancario,MICROCREDITOS,34.62
+2014,Establecimiento bancario,OTRAS MODALIDADES DE CREDITO,24.26
+2014,Institución oficial especial,CREDITOS DE CONSUMO,12.61
+2014,Institución oficial especial,CREDITOS DE VIVIENDA,8.83
+2015,Compañía de financiamiento,CREDITOS A TRAVES DE LIBRANZA,17.19
+2015,Compañía de financiamiento,CREDITOS COMERCIALES,12.11
+2015,Compañía de financiamiento,CREDITOS DE CONSUMO,18.01
+2015,Compañía de financiamiento,CREDITOS DE VIVIENDA,10.33
+2015,Compañía de financiamiento,CREDITOS ESPECIALES,12.37
+2015,Compañía de financiamiento,MICROCREDITOS,38.16
+2015,Compañía de financiamiento,OTRAS MODALIDADES DE CREDITO,28.56
+2015,Cooperativa financiera,CREDITOS A TRAVES DE LIBRANZA,15.74
+2015,Cooperativa financiera,CREDITOS COMERCIALES,13.48
+2015,Cooperativa financiera,CREDITOS DE CONSUMO,17.0
+2015,Cooperativa financiera,CREDITOS DE VIVIENDA,11.83
+2015,Cooperativa financiera,MICROCREDITOS,23.74
+2015,Cooperativa financiera,OTRAS MODALIDADES DE CREDITO,21.54
+2015,Establecimiento bancario,CREDITOS A TRAVES DE LIBRANZA,14.28
+2015,Establecimiento bancario,CREDITOS COMERCIALES,9.22
+2015,Establecimiento bancario,CREDITOS CONSUMO BAJO MONTO,14.85
+2015,Establecimiento bancario,CREDITOS DE CONSUMO,17.21
+2015,Establecimiento bancario,CREDITOS DE VIVIENDA,9.8
+2015,Establecimiento bancario,CREDITOS ESPECIALES,6.56
+2015,Establecimiento bancario,MICROCREDITOS,36.01
+2015,Establecimiento bancario,OTRAS MODALIDADES DE CREDITO,23.86
+2015,Institución oficial especial,CREDITOS DE CONSUMO,12.59
+2015,Institución oficial especial,CREDITOS DE VIVIENDA,8.2
+2016,Compañía de financiamiento,CREDITOS A TRAVES DE LIBRANZA,21.43
+2016,Compañía de financiamiento,CREDITOS COMERCIALES,14.53
+2016,Compañía de financiamiento,CREDITOS DE CONSUMO,20.66
+2016,Compañía de financiamiento,CREDITOS DE VIVIENDA,11.57
+2016,Compañía de financiamiento,CREDITOS ESPECIALES,15.15
+2016,Compañía de financiamiento,MICROCREDITOS,40.31
+2016,Compañía de financiamiento,OTRAS MODALIDADES DE CREDITO,31.01
+2016,Cooperativa financiera,CREDITOS A TRAVES DE LIBRANZA,17.1
+2016,Cooperativa financiera,CREDITOS COMERCIALES,16.2
+2016,Cooperativa financiera,CREDITOS DE CONSUMO,19.03
+2016,Cooperativa financiera,CREDITOS DE VIVIENDA,12.64
+2016,Cooperativa financiera,MICROCREDITOS,25.47
+2016,Cooperativa financiera,OTRAS MODALIDADES DE CREDITO,23.05
+2016,Establecimiento bancario,CREDITOS A TRAVES DE LIBRANZA,15.77
+2016,Establecimiento bancario,CREDITOS COMERCIALES,12.72
+2016,Establecimiento bancario,CREDITOS CONSUMO BAJO MONTO,52.12
+2016,Establecimiento bancario,CREDITOS DE CONSUMO,19.1
+2016,Establecimiento bancario,CREDITOS DE VIVIENDA,10.77
+2016,Establecimiento bancario,CREDITOS ESPECIALES,6.5
+2016,Establecimiento bancario,MICROCREDITOS,37.38
+2016,Establecimiento bancario,OTRAS MODALIDADES DE CREDITO,26.0
+2016,Institución oficial especial,CREDITOS A TRAVES DE LIBRANZA,10.64
+2016,Institución oficial especial,CREDITOS DE CONSUMO,14.12
+2016,Institución oficial especial,CREDITOS DE VIVIENDA,7.67
+2017,Compañía de financiamiento,CREDITOS A TRAVES DE LIBRANZA,21.69
+2017,Compañía de financiamiento,CREDITOS COMERCIALES,13.03
+2017,Compañía de financiamiento,CREDITOS DE CONSUMO,20.32
+2017,Compañía de financiamiento,CREDITOS DE VIVIENDA,11.69
+2017,Compañía de financiamiento,CREDITOS ESPECIALES,13.67
+2017,Compañía de financiamiento,MICROCREDITOS,38.5
+2017,Compañía de financiamiento,OTRAS MODALIDADES DE CREDITO,32.5
+2017,Cooperativa financiera,CREDITOS A TRAVES DE LIBRANZA,17.6
+2017,Cooperativa financiera,CREDITOS COMERCIALES,16.23
+2017,Cooperativa financiera,CREDITOS DE CONSUMO,19.15
+2017,Cooperativa financiera,CREDITOS DE VIVIENDA,13.22
+2017,Cooperativa financiera,MICROCREDITOS,25.43
+2017,Cooperativa financiera,OTRAS MODALIDADES DE CREDITO,23.22
+2017,Establecimiento bancario,CREDITOS A TRAVES DE LIBRANZA,16.21
+2017,Establecimiento bancario,CREDITOS COMERCIALES,11.14
+2017,Establecimiento bancario,CREDITOS CONSUMO BAJO MONTO,53.31
+2017,Establecimiento bancario,CREDITOS DE CONSUMO,19.33
+2017,Establecimiento bancario,CREDITOS DE VIVIENDA,10.3
+2017,Establecimiento bancario,CREDITOS ESPECIALES,9.42
+2017,Establecimiento bancario,MICROCREDITOS,37.1
+2017,Establecimiento bancario,OTRAS MODALIDADES DE CREDITO,26.39
+2017,Institución oficial especial,CREDITOS A TRAVES DE LIBRANZA,11.43
+2017,Institución oficial especial,CREDITOS DE CONSUMO,14.3
+2017,Institución oficial especial,CREDITOS DE VIVIENDA,8.32
+2018,Compañía de financiamiento,CREDITOS A TRAVES DE LIBRANZA,21.41
+2018,Compañía de financiamiento,CREDITOS COMERCIALES,11.21
+2018,Compañía de financiamiento,CREDITOS DE CONSUMO,19.26
+2018,Compañía de financiamiento,CREDITOS DE VIVIENDA,11.65
+2018,Compañía de financiamiento,CREDITOS ESPECIALES,12.43
+2018,Compañía de financiamiento,MICROCREDITOS,38.22
+2018,Compañía de financiamiento,OTRAS MODALIDADES DE CREDITO,30.03
+2018,Cooperativa financiera,CREDITOS A TRAVES DE LIBRANZA,16.74
+2018,Cooperativa financiera,CREDITOS COMERCIALES,14.65
+2018,Cooperativa financiera,CREDITOS DE CONSUMO,18.2
+2018,Cooperativa financiera,CREDITOS DE VIVIENDA,13.1
+2018,Cooperativa financiera,MICROCREDITOS,25.13
+2018,Cooperativa financiera,OTRAS MODALIDADES DE CREDITO,23.28
+2018,Establecimiento bancario,CREDITOS A TRAVES DE LIBRANZA,15.34
+2018,Establecimiento bancario,CREDITOS COMERCIALES,9.26
+2018,Establecimiento bancario,CREDITOS CONSUMO BAJO MONTO,54.66
+2018,Establecimiento bancario,CREDITOS DE CONSUMO,17.89
+2018,Establecimiento bancario,CREDITOS DE VIVIENDA,9.57
+2018,Establecimiento bancario,CREDITOS ESPECIALES,8.64
+2018,Establecimiento bancario,MICROCREDITOS,36.95
+2018,Establecimiento bancario,OTRAS MODALIDADES DE CREDITO,24.25
+2018,Institución oficial especial,CREDITOS A TRAVES DE LIBRANZA,11.5
+2018,Institución oficial especial,CREDITOS COMERCIALES,11.04
+2018,Institución oficial especial,CREDITOS DE CONSUMO,12.77
+2018,Institución oficial especial,CREDITOS DE VIVIENDA,7.89
+2019,Compañía de financiamiento,CREDITOS A TRAVES DE LIBRANZA,18.25
+2019,Compañía de financiamiento,CREDITOS COMERCIALES,10.37
+2019,Compañía de financiamiento,CREDITOS DE CONSUMO,18.19
+2019,Compañía de financiamiento,CREDITOS DE VIVIENDA,11.44
+2019,Compañía de financiamiento,MICROCREDITOS,38.57
+2019,Compañía de financiamiento,OTRAS MODALIDADES DE CREDITO,28.77
+2019,Cooperativa financiera,CREDITOS A TRAVES DE LIBRANZA,15.48
+2019,Cooperativa financiera,CREDITOS COMERCIALES,14.48
+2019,Cooperativa financiera,CREDITOS DE CONSUMO,17.34
+2019,Cooperativa financiera,CREDITOS DE VIVIENDA,12.94
+2019,Cooperativa financiera,MICROCREDITOS,24.69
+2019,Cooperativa financiera,OTRAS MODALIDADES DE CREDITO,23.6
+2019,Establecimiento bancario,CREDITOS A TRAVES DE LIBRANZA,13.69
+2019,Establecimiento bancario,CREDITOS COMERCIALES,8.83
+2019,Establecimiento bancario,CREDITOS CONSUMO BAJO MONTO,50.8
+2019,Establecimiento bancario,CREDITOS DE CONSUMO,16.44
+2019,Establecimiento bancario,CREDITOS DE VIVIENDA,9.43
+2019,Establecimiento bancario,CREDITOS ESPECIALES,6.1
+2019,Establecimiento bancario,MICROCREDITOS,36.91
+2019,Establecimiento bancario,OTRAS MODALIDADES DE CREDITO,22.59
+2019,Institución oficial especial,CREDITOS A TRAVES DE LIBRANZA,11.5
+2019,Institución oficial especial,CREDITOS COMERCIALES,11.83
+2019,Institución oficial especial,CREDITOS DE CONSUMO,11.74
+2019,Institución oficial especial,CREDITOS DE VIVIENDA,7.66
+2020,Compañía de financiamiento,CREDITOS A TRAVES DE LIBRANZA,17.12
+2020,Compañía de financiamiento,CREDITOS COMERCIALES,9.2
+2020,Compañía de financiamiento,CREDITOS DE CONSUMO,17.64
+2020,Compañía de financiamiento,CREDITOS DE VIVIENDA,11.28
+2020,Compañía de financiamiento,MICROCREDITOS,46.51
+2020,Compañía de financiamiento,OTRAS MODALIDADES DE CREDITO,27.47
+2020,Cooperativa financiera,CREDITOS A TRAVES DE LIBRANZA,14.83
+2020,Cooperativa financiera,CREDITOS COMERCIALES,13.94
+2020,Cooperativa financiera,CREDITOS DE CONSUMO,16.38
+2020,Cooperativa financiera,CREDITOS DE VIVIENDA,12.55
+2020,Cooperativa financiera,MICROCREDITOS,21.43
+2020,Cooperativa financiera,OTRAS MODALIDADES DE CREDITO,22.11
+2020,Establecimiento bancario,CREDITOS A TRAVES DE LIBRANZA,12.94
+2020,Establecimiento bancario,CREDITOS COMERCIALES,7.45
+2020,Establecimiento bancario,CREDITOS CONSUMO BAJO MONTO,48.72
+2020,Establecimiento bancario,CREDITOS DE CONSUMO,14.89
+2020,Establecimiento bancario,CREDITOS DE VIVIENDA,9.27
+2020,Establecimiento bancario,CREDITOS ESPECIALES,7.62
+2020,Establecimiento bancario,MICROCREDITOS,37.14
+2020,Establecimiento bancario,OTRAS MODALIDADES DE CREDITO,21.12
+2020,Institución oficial especial,CREDITOS A TRAVES DE LIBRANZA,11.29
+2020,Institución oficial especial,CREDITOS COMERCIALES,7.75
+2020,Institución oficial especial,CREDITOS DE CONSUMO,12.44
+2020,Institución oficial especial,CREDITOS DE VIVIENDA,7.83
+2021,Compañía de financiamiento,CREDITOS A TRAVES DE LIBRANZA,17.32
+2021,Compañía de financiamiento,CREDITOS COMERCIALES,8.66
+2021,Compañía de financiamiento,CREDITOS CONSUMO BAJO MONTO,35.6
+2021,Compañía de financiamiento,CREDITOS DE CONSUMO,17.28
+2021,Compañía de financiamiento,CREDITOS DE VIVIENDA,11.38
+2021,Compañía de financiamiento,MICROCREDITOS,49.94
+2021,Compañía de financiamiento,OTRAS MODALIDADES DE CREDITO,25.81
+2021,Cooperativa financiera,CREDITOS A TRAVES DE LIBRANZA,12.99
+2021,Cooperativa financiera,CREDITOS COMERCIALES,13.71
+2021,Cooperativa financiera,CREDITOS DE CONSUMO,14.73
+2021,Cooperativa financiera,CREDITOS DE VIVIENDA,12.15
+2021,Cooperativa financiera,MICROCREDITOS,20.15
+2021,Cooperativa financiera,OTRAS MODALIDADES DE CREDITO,23.0
+2021,Establecimiento bancario,CREDITOS A TRAVES DE LIBRANZA,11.52
+2021,Establecimiento bancario,CREDITOS COMERCIALES,6.09
+2021,Establecimiento bancario,CREDITOS CONSUMO BAJO MONTO,46.33
+2021,Establecimiento bancario,CREDITOS DE CONSUMO,14.12
+2021,Establecimiento bancario,CREDITOS DE VIVIENDA,8.43
+2021,Establecimiento bancario,CREDITOS ESPECIALES,6.39
+2021,Establecimiento bancario,MICROCREDITOS,37.59
+2021,Establecimiento bancario,OTRAS MODALIDADES DE CREDITO,21.27
+2021,Institución oficial especial,CREDITOS A TRAVES DE LIBRANZA,9.92
+2021,Institución oficial especial,CREDITOS COMERCIALES,5.27
+2021,Institución oficial especial,CREDITOS DE CONSUMO,10.4
+2021,Institución oficial especial,CREDITOS DE VIVIENDA,7.54
+2022,Compañía de financiamiento,CREDITOS A TRAVES DE LIBRANZA,17.43
+2022,Compañía de financiamiento,CREDITOS COMERCIALES,11.23
+2022,Compañía de financiamiento,CREDITOS CONSUMO BAJO MONTO,39.34
+2022,Compañía de financiamiento,CREDITOS DE CONSUMO,19.67
+2022,Compañía de financiamiento,CREDITOS DE VIVIENDA,11.56
+2022,Compañía de financiamiento,MICROCREDITOS,49.48
+2022,Compañía de financiamiento,OTRAS MODALIDADES DE CREDITO,28.2
+2022,Cooperativa financiera,CREDITOS A TRAVES DE LIBRANZA,13.37
+2022,Cooperativa financiera,CREDITOS COMERCIALES,16.71
+2022,Cooperativa financiera,CREDITOS DE CONSUMO,15.47
+2022,Cooperativa financiera,CREDITOS DE VIVIENDA,12.83
+2022,Cooperativa financiera,MICROCREDITOS,21.34
+2022,Cooperativa financiera,OTRAS MODALIDADES DE CREDITO,24.01
+2022,Establecimiento bancario,CREDITOS A TRAVES DE LIBRANZA,12.85
+2022,Establecimiento bancario,CREDITOS COMERCIALES,9.65
+2022,Establecimiento bancario,CREDITOS CONSUMO BAJO MONTO,44.26
+2022,Establecimiento bancario,CREDITOS DE CONSUMO,17.76
+2022,Establecimiento bancario,CREDITOS DE VIVIENDA,9.34
+2022,Establecimiento bancario,CREDITOS ESPECIALES,10.14
+2022,Establecimiento bancario,MICROCREDITOS,38.89
+2022,Establecimiento bancario,OTRAS MODALIDADES DE CREDITO,23.56
+2022,Institución oficial especial,CREDITOS A TRAVES DE LIBRANZA,9.23
+2022,Institución oficial especial,CREDITOS COMERCIALES,10.55
+2022,Institución oficial especial,CREDITOS DE CONSUMO,14.65
+2022,Institución oficial especial,CREDITOS DE VIVIENDA,7.27

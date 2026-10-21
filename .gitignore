@@ -20,3 +20,11 @@ yes/
 # Sistema operativo
 .DS_Store
 Thumbs.db
+
+# Descargas de datos públicos (se regeneran con los scripts de ingesta)
+analisis_gcp/data/raw/
+analisis_gcp/data/plata/
+riesgo_credito/data/raw/
+riesgo_credito/data/plata/
+area_ventas/data/raw/
+area_ventas/data/plata/

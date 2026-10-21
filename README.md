@@ -7,7 +7,9 @@ English | [Español](README.es.md)
 
 [![CI](https://github.com/javiermorenof7/javiermorenof7/actions/workflows/ci.yml/badge.svg)](https://github.com/javiermorenof7/javiermorenof7/actions/workflows/ci.yml)
 
-Data engineer with 5+ years designing ETL/ELT pipelines and medallion architectures on GCP, AWS and Azure for the financial, retail, logistics and education sectors. I take data from ingestion to analysis and models in production, with automated tests and controlled deployment.
+**Data that arrives on time, clean and ready for decisions.**
+
+Behind every good decision there is a piece of data someone trusted. My job is to make that data worth the trust. Data doesn't fail for lack of tools; it fails because no one designed the path. I design that path. I take scattered information, organize it, validate it and make it ready for the business to decide with confidence, in pipelines that run themselves, test themselves and hide no errors.
 
 [Portfolio](https://javiermorenof7.github.io/cv_portafolio/) | [LinkedIn](https://www.linkedin.com/in/francisco-javier-garcia-moreno)
 
